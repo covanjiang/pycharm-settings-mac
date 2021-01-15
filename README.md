@@ -21,7 +21,7 @@ Mac OS PyCharm settings.
 
 ## 使用方法
 
-![image](uploads/7070070c7c243c5fe5b202433fd36fb5/image.png)
+![image](https://apk.302e.com:3443/matrix/common/-/wikis/uploads/7070070c7c243c5fe5b202433fd36fb5/image.png)
 
 1. `phpstorm > Preferences > Inspections `, 展开 `PHP > Quality tools`, 选中 `PHP_CodeSniffer validation`, 点击右侧的 `Coding standard` 的 `...`, 选择保存的文件. 
 2. 点击右侧的 `Coding standard` 的下拉框, 选择 `custom`.
