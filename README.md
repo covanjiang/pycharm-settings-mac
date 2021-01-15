@@ -1,3 +1,2 @@
-### pycharm-settings-mac
-
+# pycharm-settings-mac
 Mac OS PyCharm settings.
