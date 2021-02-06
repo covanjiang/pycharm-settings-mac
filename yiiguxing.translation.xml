@@ -1,14 +1,15 @@
 <application>
   <component name="AppStorage">
     <histories>
+      <item value="Cluster reads into positive strand and negative strand" />
       <item value="minimal reads to support APAspeaks" />
       <item value="minimal distance between two adjacent APAspeaks" />
       <item value="Shadows name 'split_unit' from outer scope" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="1" />
-        <entry key="ENGLISH" value="2" />
+        <entry key="CHINESE" value="2" />
+        <entry key="ENGLISH" value="3" />
       </map>
     </option>
   </component>
