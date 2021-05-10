@@ -38,6 +38,7 @@
     <option name="ignoredIdentifiers">
       <list>
         <option value="float.__getitem__" />
+        <option value="method" />
       </list>
     </option>
   </inspection_tool>
