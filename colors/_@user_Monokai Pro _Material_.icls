@@ -4,7 +4,7 @@
     <property name="created">2021-01-08T17:10:53</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2020.3.2.0.0</property>
-    <property name="modified">2021-01-08T17:27:24</property>
+    <property name="modified">2021-05-11T19:15:45</property>
     <property name="originalScheme">Monokai Pro (Material)</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.1" />
@@ -3667,7 +3667,7 @@
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="ffd866" />
+        <option name="FOREGROUND" value="ff1212" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
