@@ -39,6 +39,7 @@
       <list>
         <option value="float.__getitem__" />
         <option value="method" />
+        <option value="headers" />
       </list>
     </option>
   </inspection_tool>
