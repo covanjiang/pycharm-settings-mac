@@ -3,6 +3,8 @@
     <option name="newTranslationDialogX" value="786" />
     <option name="newTranslationDialogY" value="484" />
     <histories>
+      <item value="Unexpected argument&#10;" />
+      <item value="Unexpected argument" />
       <item value="The delimiter according which to split the string. None (the default value) means split according to any whitespace, and discard empty strings from the result. maxsplit&#10;" />
       <item value="The delimiter according which to split the string. None (the default value) means split according to any whitespace, and discard empty strings from the result. maxsplit" />
       <item value="Returns the approximate memory footprint an object and all of its contents. Automatically finds the contents of the following builtin containers and their subclasses: tuple, list, deque, dict, set and frozenset. To search other containers, add handlers to iterate over their contents: handlers = {SomeContainerClass: iter, OtherContainerClass: OtherContainerClass.get_elements}" />
@@ -18,7 +20,7 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="8" />
+        <entry key="CHINESE" value="9" />
         <entry key="ENGLISH" value="9" />
       </map>
     </option>
