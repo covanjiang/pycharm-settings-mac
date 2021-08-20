@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="786" />
     <option name="newTranslationDialogY" value="484" />
     <histories>
+      <item value="A toolset for quality control, evlation and processing of GRID-seq libarary." />
       <item value="known case of datetime.datetime.utcnow &quot;&quot;&quot; Return a new datetime representing UTC day and time." />
       <item value="Unexpected argument&#10;" />
       <item value="Unexpected argument" />
@@ -21,12 +22,12 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="9" />
-        <entry key="ENGLISH" value="10" />
+        <entry key="CHINESE" value="10" />
+        <entry key="ENGLISH" value="11" />
       </map>
     </option>
   </component>
   <component name="Cache">
-    <option name="lastTrimTime" value="1625453581481" />
+    <option name="lastTrimTime" value="1629450586957" />
   </component>
 </application>
