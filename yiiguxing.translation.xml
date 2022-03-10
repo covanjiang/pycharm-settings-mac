@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="786" />
     <option name="newTranslationDialogY" value="484" />
     <histories>
+      <item value="income" />
       <item value="compensation" />
       <item value="Domestic" />
       <item value="stats latency" />
@@ -27,8 +28,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="17" />
-        <entry key="ENGLISH" value="18" />
+        <entry key="CHINESE" value="18" />
+        <entry key="ENGLISH" value="19" />
       </map>
     </option>
   </component>
