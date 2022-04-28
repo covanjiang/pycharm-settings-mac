@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="786" />
     <option name="newTranslationDialogY" value="484" />
     <histories>
+      <item value="statements" />
       <item value="Normally, THttpServer always sends a 200 response. If a handler wants to override this behavior (e.g., to simulate a misconfigured or overloaded web server during testing), it can raise a ResponseException. The function passed to the constructor will be called with the RequestHandler as its only argument. Note that this is irrelevant for ONEWAY requests, as the HTTP response must be sent before the RPC is processed." />
       <item value="propagate" />
       <item value="compensation" />
@@ -30,8 +31,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="21" />
-        <entry key="ENGLISH" value="22" />
+        <entry key="CHINESE" value="22" />
+        <entry key="ENGLISH" value="23" />
       </map>
     </option>
   </component>
