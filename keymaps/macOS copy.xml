@@ -7,6 +7,10 @@
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
+  <action id="Jdbc.OpenConsole.New" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl meta l" />
+  </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
@@ -15,5 +19,8 @@
   </action>
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="Tool_External Tools_autopep8">
+    <keyboard-shortcut first-keystroke="meta alt l" />
   </action>
 </keymap>
