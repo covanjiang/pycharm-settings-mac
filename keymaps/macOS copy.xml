@@ -3,6 +3,9 @@
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
   <action id="ActivateFindToolWindow" />
+  <action id="CompareClipboardWithSelection">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="meta 3" />
