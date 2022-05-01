@@ -26,7 +26,7 @@
   <action id="ToggleZenMode">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
-  <action id="Tool_External Tools_autopep8">
+  <action id="Tool_External Tools_black">
     <keyboard-shortcut first-keystroke="meta alt l" />
   </action>
 </keymap>
