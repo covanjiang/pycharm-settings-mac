@@ -13,7 +13,7 @@
       <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
     </exec>
     <filter>
-      <option name="NAME" />
+      <option name="NAME" value="无名称" />
       <option name="DESCRIPTION" />
       <option name="REGEXP" value="$FILE_PATH$\:$LINE$\:$COLUMN$\:.*" />
     </filter>
