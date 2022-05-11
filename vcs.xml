@@ -6,6 +6,10 @@
           <option name="url" value="http://git.domob-inc.cn" />
           <option name="userName" value="zhiwei.jiang" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://atlantis.domob-inc.cn" />
+          <option name="userName" value="zhiwei.jiang" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
