@@ -12,6 +12,7 @@
       <map>
         <entry key="Memory" value="true" />
         <entry key="mtStatusBar" value="false" />
+        <entry key="mtThemeFactory" value="false" />
       </map>
     </option>
   </component>
