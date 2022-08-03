@@ -1,0 +1,51 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogX" value="786" />
+    <option name="newTranslationDialogY" value="484" />
+    <histories>
+      <item value="discrepancies" />
+      <item value="There are discrepancies in media consumption, please check your email!" />
+      <item value="Media consumption indistinguishable data!" />
+      <item value="preamble" />
+      <item value="transpose" />
+      <item value="embedding" />
+      <item value="When the timeout argument is not present or None, the operation will block until the thread terminates. A thread can be join()ed many times. join() raises a RuntimeError if an attempt is made to join the current thread as that would cause a deadlock. It is also an error to join() a thread before it has been started and attempts to do so raises the same exception." />
+      <item value="hen the timeout argument is present and not None, it should be a floating point number specifying a timeout for the operation in seconds (or fractions thereof). As join() always returns None, you must call isAlive() after join() to decide whether a timeout happened -- if the thread is still alive, the join() call timed out." />
+      <item value="This blocks the calling thread until the thread whose join() method is called terminates -- either normally or through an unhandled exception or until the optional timeout occurs." />
+      <item value="statements" />
+      <item value="Normally, THttpServer always sends a 200 response. If a handler wants to override this behavior (e.g., to simulate a misconfigured or overloaded web server during testing), it can raise a ResponseException. The function passed to the constructor will be called with the RequestHandler as its only argument. Note that this is irrelevant for ONEWAY requests, as the HTTP response must be sent before the RPC is processed." />
+      <item value="propagate" />
+      <item value="compensation" />
+      <item value="income" />
+      <item value="Domestic" />
+      <item value="stats latency" />
+      <item value="latency" />
+      <item value="accuracy" />
+      <item value="A toolset for quality control, evlation and processing of GRID-seq libarary." />
+      <item value="known case of datetime.datetime.utcnow &quot;&quot;&quot; Return a new datetime representing UTC day and time." />
+      <item value="Unexpected argument&#10;" />
+      <item value="Unexpected argument" />
+      <item value="The delimiter according which to split the string. None (the default value) means split according to any whitespace, and discard empty strings from the result. maxsplit&#10;" />
+      <item value="The delimiter according which to split the string. None (the default value) means split according to any whitespace, and discard empty strings from the result. maxsplit" />
+      <item value="Returns the approximate memory footprint an object and all of its contents. Automatically finds the contents of the following builtin containers and their subclasses: tuple, list, deque, dict, set and frozenset. To search other containers, add handlers to iterate over their contents: handlers = {SomeContainerClass: iter, OtherContainerClass: OtherContainerClass.get_elements}" />
+      <item value="verbose" />
+      <item value="so slow" />
+      <item value="Get polyA peaks for given set of depths" />
+      <item value="fusion reads" />
+      <item value="sorted ids of intervals in cluster(tuples)" />
+      <item value="Cluster reads into positive strand and negative strand" />
+      <item value="minimal reads to support APAspeaks" />
+      <item value="minimal distance between two adjacent APAspeaks" />
+      <item value="Shadows name 'split_unit' from outer scope" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="31" />
+        <entry key="ENGLISH" value="32" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1657510488418" />
+  </component>
+</application>
