@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="786" />
     <option name="newTranslationDialogY" value="484" />
     <histories>
+      <item value="compensation" />
       <item value="discrepancies" />
       <item value="There are discrepancies in media consumption, please check your email!" />
       <item value="Media consumption indistinguishable data!" />
@@ -15,7 +16,6 @@
       <item value="statements" />
       <item value="Normally, THttpServer always sends a 200 response. If a handler wants to override this behavior (e.g., to simulate a misconfigured or overloaded web server during testing), it can raise a ResponseException. The function passed to the constructor will be called with the RequestHandler as its only argument. Note that this is irrelevant for ONEWAY requests, as the HTTP response must be sent before the RPC is processed." />
       <item value="propagate" />
-      <item value="compensation" />
       <item value="income" />
       <item value="Domestic" />
       <item value="stats latency" />
@@ -40,8 +40,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="31" />
-        <entry key="ENGLISH" value="32" />
+        <entry key="CHINESE" value="32" />
+        <entry key="ENGLISH" value="33" />
       </map>
     </option>
   </component>
