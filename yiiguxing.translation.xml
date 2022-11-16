@@ -3,6 +3,7 @@
     <option name="newTranslationDialogX" value="786" />
     <option name="newTranslationDialogY" value="484" />
     <histories>
+      <item value="supplementary" />
       <item value="compensation" />
       <item value="discrepancies" />
       <item value="There are discrepancies in media consumption, please check your email!" />
