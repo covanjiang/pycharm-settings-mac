@@ -4,16 +4,18 @@
     <extensionMap>
       <mapping pattern="proportionOfPartition" type="AUTO_DETECTED" />
       <mapping pattern="filter_cdn_list" type="AUTO_DETECTED" />
-      <mapping ext="bedgraph" type="PLAIN_TEXT" />
       <mapping ext="bam" type="PLAIN_TEXT" />
-      <mapping ext="fisher" type="PLAIN_TEXT" />
-      <mapping ext="h5" type="PLAIN_TEXT" />
       <mapping ext="bed" type="PLAIN_TEXT" />
+      <mapping ext="h5" type="PLAIN_TEXT" />
+      <mapping ext="bedgraph" type="PLAIN_TEXT" />
+      <mapping ext="fisher" type="PLAIN_TEXT" />
       <mapping ext="cnf" type="PLAIN_TEXT" />
+      <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
       <removed_mapping ext="env" approved="true" type="Env File" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="txt" approved="true" type="requirements.txt" />
+      <removed_mapping pattern=".env.*" approved="true" type="Env File" />
     </extensionMap>
   </component>
 </application>
