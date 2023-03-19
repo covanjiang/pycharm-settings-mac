@@ -58,6 +58,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="&quot;&quot;&quot; Extend list by appending elements from the iterable." />
       <item value="It is also common to create a Client without specifying the scheduler address , like ``Client()``. In this case the Client creates a :class:`LocalCluster` in the background and connects to that. Any extra keywords are passed from Client to LocalCluster in this case. See the LocalCluster documentation for more information." />
       <item value="The Client connects users to a Dask cluster. It provides an asynchronous user interface around functions and futures. This class resembles executors in ``concurrent.futures`` but also allows ``Future`` objects within ``submitmap`` calls. When a Client is instantiated it takes over all ``dask.compute`` and ``dask.persist`` calls by default." />
       <item value="Connect to and submit computation to a Dask cluster" />
@@ -65,8 +66,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="2" />
-        <entry key="ENGLISH" value="3" />
+        <entry key="CHINESE" value="3" />
+        <entry key="ENGLISH" value="4" />
       </map>
     </option>
   </component>
