@@ -58,6 +58,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Have this task secede from the worker's thread pool This opens up a new scheduling slot and a new thread for a new task. This enables the client to schedule tasks on this node, which is especially useful while waiting for other jobs to finish (e.g., with ``client.gather``)." />
       <item value="Parse the first YAML document in a stream and produce the corresponding Python object." />
       <item value="Parse the first YAML document in a stream and produce the corresponding Python object. Resolve only basic YAML tags. This is known to be safe for untrusted input." />
       <item value="Install a rich traceback handler. Once installed, any tracebacks will be printed with syntax highlighting and rich formatting. Args: console (Optional[Console], optional): Console to write exception to. Default uses internal Console instance. width (Optional[int], optional): Width (in characters) of traceback. Defaults to 100. extra_lines (int, optional): Extra lines of code. Defaults to 3. theme (Optional[str], optional): Pygments theme to use in traceback. Defaults to ``None`` which will pick a theme appropriate for the platform. word_wrap (bool, optional): Enable word wrapping of long lines. Defaults to False. show_locals (bool, optional): Enable display of local variables. Defaults to False. locals_max_length (int, optional): Maximum length of containers before abbreviating, or None for no abbreviation. Defaults to 10. locals_max_string (int, optional): Maximum length of string before truncating, or None to disable. Defaults to 80. locals_hide_dunder (bool, optional): Hide locals prefixed with double underscore. Defaults to True. locals_hide_sunder (bool, optional): Hide locals prefixed with single underscore. Defaults to False. indent_guides (bool, optional): Enable indent guides in code and locals. Defaults to True. suppress (Sequence[Union[str, ModuleType]]): Optional sequence of modules or paths to exclude from traceback. Returns: Callable: The previous exception handler that was replaced." />
@@ -73,8 +74,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="10" />
-        <entry key="ENGLISH" value="11" />
+        <entry key="CHINESE" value="13" />
+        <entry key="ENGLISH" value="14" />
       </map>
     </option>
   </component>
