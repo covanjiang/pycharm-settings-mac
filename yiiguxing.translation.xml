@@ -58,6 +58,13 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Parse the first YAML document in a stream and produce the corresponding Python object." />
+      <item value="Parse the first YAML document in a stream and produce the corresponding Python object. Resolve only basic YAML tags. This is known to be safe for untrusted input." />
+      <item value="Install a rich traceback handler. Once installed, any tracebacks will be printed with syntax highlighting and rich formatting. Args: console (Optional[Console], optional): Console to write exception to. Default uses internal Console instance. width (Optional[int], optional): Width (in characters) of traceback. Defaults to 100. extra_lines (int, optional): Extra lines of code. Defaults to 3. theme (Optional[str], optional): Pygments theme to use in traceback. Defaults to ``None`` which will pick a theme appropriate for the platform. word_wrap (bool, optional): Enable word wrapping of long lines. Defaults to False. show_locals (bool, optional): Enable display of local variables. Defaults to False. locals_max_length (int, optional): Maximum length of containers before abbreviating, or None for no abbreviation. Defaults to 10. locals_max_string (int, optional): Maximum length of string before truncating, or None to disable. Defaults to 80. locals_hide_dunder (bool, optional): Hide locals prefixed with double underscore. Defaults to True. locals_hide_sunder (bool, optional): Hide locals prefixed with single underscore. Defaults to False. indent_guides (bool, optional): Enable indent guides in code and locals. Defaults to True. suppress (Sequence[Union[str, ModuleType]]): Optional sequence of modules or paths to exclude from traceback. Returns: Callable: The previous exception handler that was replaced." />
+      <item value="Put the bytes from filename into the archive under the name arcname." />
+      <item value="For the purpose of this method, drive and root are considered separate parts, i.e.: Path('c:').relative_to('c:') gives Path('') Path('c:').relative_to('') raise ValueError" />
+      <item value="Recursively yield all existing files (of any kind, including directories) matching the given relative pattern, anywhere in this subtree." />
+      <item value="Make the path absolute, resolving all symlinks on the way and also normalizing it (for example turning slashes into backslashes under Windows)." />
       <item value="&quot;&quot;&quot; Extend list by appending elements from the iterable." />
       <item value="It is also common to create a Client without specifying the scheduler address , like ``Client()``. In this case the Client creates a :class:`LocalCluster` in the background and connects to that. Any extra keywords are passed from Client to LocalCluster in this case. See the LocalCluster documentation for more information." />
       <item value="The Client connects users to a Dask cluster. It provides an asynchronous user interface around functions and futures. This class resembles executors in ``concurrent.futures`` but also allows ``Future`` objects within ``submitmap`` calls. When a Client is instantiated it takes over all ``dask.compute`` and ``dask.persist`` calls by default." />
@@ -66,8 +73,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="3" />
-        <entry key="ENGLISH" value="4" />
+        <entry key="CHINESE" value="10" />
+        <entry key="ENGLISH" value="11" />
       </map>
     </option>
   </component>
