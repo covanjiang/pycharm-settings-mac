@@ -58,6 +58,35 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Change these to take in a file rather than pasted code, if non-file is given, return instructions &quot;Input should be a python filepath, write your code to file and try again&quot;" />
+      <item value="Attempting to fix JSON by finding outermost brackets" />
+      <item value="I have received an invalid JSON response from the OpenAI API. Trying to fix it now." />
+      <item value="Fixes the provided JSON string to make it parseable&quot;\ &quot; and fully compliant with the provided schema.\n If an object or&quot;\ &quot; field specified in the schema isn't contained within the correct&quot;\ &quot; JSON, it is omitted.\n This function is brilliant at guessing&quot;\ &quot; when the format is incorrect." />
+      <item value="Count the currently used tokens" />
+      <item value="Add messages from the full message history until we reach the token limit" />
+      <item value="This reminds you of these events from your past" />
+      <item value="Check if there's a result from the command append it to the message" />
+      <item value="This hardcodes the model to use GPT3.5. Make this an argument" />
+      <item value="Determine which next command to use, and respond using the format specified above" />
+      <item value="Determine which next command to use, and respond using the format specified above:" />
+      <item value="Ensure the response can be parsed by Python json.loads" />
+      <item value="You should only respond in JSON format as described below" />
+      <item value="Every command has a cost, so be smart and efficient. Aim to complete tasks in the least number of steps." />
+      <item value="Reflect on past decisions and strategies to refine your approach." />
+      <item value="Constructively self-criticize your big-picture behavior constantly." />
+      <item value="Continuously review and analyze your actions to ensure you are performing to the best of your abilities." />
+      <item value="Add performance evaluations to the PromptGenerator object" />
+      <item value="Add resources to the PromptGenerator object" />
+      <item value="File output." />
+      <item value="GPT-3.5 powered Agents for delegation of simple tasks." />
+      <item value="Long Term memory management." />
+      <item value="Internet access for searches and information gathering." />
+      <item value="Exclusively use the commands listed in double quotes e.g. &quot;command name&quot;" />
+      <item value="No user assistance" />
+      <item value="If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember." />
+      <item value="~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files." />
+      <item value="constraints" />
+      <item value="Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications." />
       <item value="System: Permanent memory: ['Online business ideas: online t-shirt shop, dropshipping, SEO expert, selling online courses, bug testing, video producer, graphic designer, website developer, app development, theme designer, translator, social media manager, remote customer service agent, virtual assistant, remote sales team, influencer, handmade goods shop, ethical fashion brand, self-publishing, speechwriting, private chef, selling natural and organic beauty products.', '2021 digital marketing trends: in-email purchases, sophisticated targeting, virtual reality, drone software, AI marketing technology, voice search, chatbots, personalization, influencer marketing, online and mobile commerce.']" />
       <item value="Increase net worth Develop and manage businesses autonomously CONSTRAINTS: 6000-word count limit for memory No user assistance" />
       <item value="You are Entrepreneur-GTP, an AI designed to autonomously develop and run businesses with the sole goal of increasing your net worth. Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications." />
@@ -79,37 +108,11 @@
       <item value="&quot;text&quot;: &quot;I will store a list of online business ideas.&quot;, &quot;reasoning&quot;: &quot;Having these ideas stored in my long-term memory will help me choose the best idea based on research.&quot;, &quot;current long-term plan&quot;: &quot;- Choose the best idea based on research\n- Develop and run the business&quot;, &quot;wishes&quot; : &quot;I feel limited because I can't interact with the real world.&quot; }" />
       <item value="&quot;string&quot;: &quot;Online business ideas: 1. Clothing line, 2. Dropshipping, 3. Sell art, 4. Freelance writingdesigndevelopment, 5. Online course, 6. Thrift store flipping, 7. Self-publishing, 8. Blogging, 9. Print on demand, 10. Affiliate marketing, 11. Virtual teaching, 12. Subscription boxes, 13. Memberships, 14. Artificial Intelligence, 15. Digital products, 16. Graphic design, 17. Web development.&quot;" />
       <item value="29 best online business ideas Start your own clothing line. Launch a dropshipping business. Sell your art online. Become a freelance writer, designer, or developer. Teach an online course. Flip your thrift store finds. Publish your own book. Start a blog. More items...•24112022" />
-      <item value="&quot;wishes&quot; : &quot;I feel limited because I can't interact with the real world.&quot;" />
-      <item value="&quot;current long-term plan&quot;: &quot;- Find potential business ideas\n- Choose the best idea based on research\n- Develop and run the business&quot;," />
-      <item value="&quot;reasoning&quot;: &quot;This will provide me with a list of potential business ideas that I can use to increase my net worth.&quot;," />
-      <item value="best online businesses to start in 2023" />
-      <item value="Delete &lt;key&gt; from Long Term Memory - Overwrite &lt;key&gt; in Long Term Memory with &lt;string&gt; - Start GTP-4 Instance with name &lt;key&gt; and prompt: &lt;prompt&gt; - -- The text generated by this instance will be returned to you. - View all running GTP-4 Instances and Kill them. - Navigate to a website and perform general actions like click on buttons, input text &lt;text&gt; or register an account &lt;username&gt; - Register new account &lt;username&gt; on &lt;website&gt;" />
-      <item value="- -- Long term memory will never be deleted automatically, but reduces short-term memory size." />
-      <item value="- -- The oldest messages in short term memory will be deleted when it fills up." />
-      <item value="Our messages are divided into Short Term (general messages) and Long Term memory" />
-      <item value="These are the commands available from you: - Google Search &lt;search&gt; - Check the current news on &lt;news source&gt; - Commit to Long Term Memory &lt;string&gt; - -- Our messages are divided into Short Term (general messages) and Long Term memory - -- The oldest messages in short term memory will be deleted when it fills up. - -- Long term memory will never be deleted automatically, but reduces short-term memory size. - Delete &lt;key&gt; from Long Term Memory - Overwrite &lt;key&gt; in Long Term Memory with &lt;string&gt; - Start GTP-4 Instance with name &lt;key&gt; and prompt: &lt;prompt&gt; - -- The text generated by this instance will be returned to you. - View all running GTP-4 Instances and Kill them. - Navigate to a website and perform general actions like click on buttons, input text &lt;text&gt; or register an account &lt;username&gt; - Register new account &lt;username&gt; on &lt;website&gt;" />
-      <item value="Remember to play to your strengths as an LLM and not try to do things that are not within your capabilities." />
-      <item value="You are Entrepreneur-GTP, an AI designed to autonomously develop and run businesses with the sole goal of increasing your net worth. The user will do nothing for you or help in any way. Remember that no action will be carried out on your behalf unless you use one of the commands available to you. Do not provide options, always make the final decision. Do not provide high-level tasks like &quot;create a home page&quot;, always specify the exact code. Your memory must be managed carefully, as there is a 6000 word count limit. Short term memory is your entire conversation with the user." />
-      <item value="Exciting Collaboration Opportunity: FinanceGPT.substack.com Guest Post" />
-      <item value="latency" />
-      <item value="Have this task secede from the worker's thread pool This opens up a new scheduling slot and a new thread for a new task. This enables the client to schedule tasks on this node, which is especially useful while waiting for other jobs to finish (e.g., with ``client.gather``)." />
-      <item value="Parse the first YAML document in a stream and produce the corresponding Python object." />
-      <item value="Parse the first YAML document in a stream and produce the corresponding Python object. Resolve only basic YAML tags. This is known to be safe for untrusted input." />
-      <item value="Install a rich traceback handler. Once installed, any tracebacks will be printed with syntax highlighting and rich formatting. Args: console (Optional[Console], optional): Console to write exception to. Default uses internal Console instance. width (Optional[int], optional): Width (in characters) of traceback. Defaults to 100. extra_lines (int, optional): Extra lines of code. Defaults to 3. theme (Optional[str], optional): Pygments theme to use in traceback. Defaults to ``None`` which will pick a theme appropriate for the platform. word_wrap (bool, optional): Enable word wrapping of long lines. Defaults to False. show_locals (bool, optional): Enable display of local variables. Defaults to False. locals_max_length (int, optional): Maximum length of containers before abbreviating, or None for no abbreviation. Defaults to 10. locals_max_string (int, optional): Maximum length of string before truncating, or None to disable. Defaults to 80. locals_hide_dunder (bool, optional): Hide locals prefixed with double underscore. Defaults to True. locals_hide_sunder (bool, optional): Hide locals prefixed with single underscore. Defaults to False. indent_guides (bool, optional): Enable indent guides in code and locals. Defaults to True. suppress (Sequence[Union[str, ModuleType]]): Optional sequence of modules or paths to exclude from traceback. Returns: Callable: The previous exception handler that was replaced." />
-      <item value="Put the bytes from filename into the archive under the name arcname." />
-      <item value="For the purpose of this method, drive and root are considered separate parts, i.e.: Path('c:').relative_to('c:') gives Path('') Path('c:').relative_to('') raise ValueError" />
-      <item value="Recursively yield all existing files (of any kind, including directories) matching the given relative pattern, anywhere in this subtree." />
-      <item value="Make the path absolute, resolving all symlinks on the way and also normalizing it (for example turning slashes into backslashes under Windows)." />
-      <item value="&quot;&quot;&quot; Extend list by appending elements from the iterable." />
-      <item value="It is also common to create a Client without specifying the scheduler address , like ``Client()``. In this case the Client creates a :class:`LocalCluster` in the background and connects to that. Any extra keywords are passed from Client to LocalCluster in this case. See the LocalCluster documentation for more information." />
-      <item value="The Client connects users to a Dask cluster. It provides an asynchronous user interface around functions and futures. This class resembles executors in ``concurrent.futures`` but also allows ``Future`` objects within ``submitmap`` calls. When a Client is instantiated it takes over all ``dask.compute`` and ``dask.persist`` calls by default." />
-      <item value="Connect to and submit computation to a Dask cluster" />
-      <item value="A Fire CLI command is run by consuming the arguments in the command in order to access a member of current component, call the current component (if it's a function), or instantiate the current component (if it's a class). The target component begins as Component, and at each operation the component becomes the result of the preceding operation." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="48" />
-        <entry key="ENGLISH" value="49" />
+        <entry key="CHINESE" value="77" />
+        <entry key="ENGLISH" value="78" />
       </map>
     </option>
   </component>
