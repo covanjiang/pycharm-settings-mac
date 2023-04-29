@@ -56,6 +56,8 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="With permission of the author, we will demonstrate how to translate the book [Euclidean Plane Geometry](https:sites.google.comsiteprojektivna), written by Milan Mitrović from Slovenian into English, without modifying any of the LaTeX commands. To achieve this, we will first split the book into chunks, each roughly a page long, then translate each chunk into English, and finally stitch them back together." />
+      <item value="Translate a book writen in LaTeX from Slovenian into English" />
       <item value="Note that the exact way that tokens are counted from messages may change from model to model. Consider the counts from the function below an estimate, not a timeless guarantee." />
       <item value="ChatGPT models like `gpt-3.5-turbo` and `gpt-4` use tokens in the same way as older completions models, but because of their message-based formatting, it's more difficult to count how many tokens will be used by a conversation." />
       <item value="Below is an example function for counting tokens for messages passed to `gpt-3.5-turbo-0301` or `gpt-4-0314`." />
@@ -104,13 +106,11 @@
       <item value="~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files." />
       <item value="constraints" />
       <item value="Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications." />
-      <item value="System: Permanent memory: ['Online business ideas: online t-shirt shop, dropshipping, SEO expert, selling online courses, bug testing, video producer, graphic designer, website developer, app development, theme designer, translator, social media manager, remote customer service agent, virtual assistant, remote sales team, influencer, handmade goods shop, ethical fashion brand, self-publishing, speechwriting, private chef, selling natural and organic beauty products.', '2021 digital marketing trends: in-email purchases, sophisticated targeting, virtual reality, drone software, AI marketing technology, voice search, chatbots, personalization, influencer marketing, online and mobile commerce.']" />
-      <item value="Increase net worth Develop and manage businesses autonomously CONSTRAINTS: 6000-word count limit for memory No user assistance" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="100" />
-        <entry key="ENGLISH" value="101" />
+        <entry key="CHINESE" value="102" />
+        <entry key="ENGLISH" value="104" />
       </map>
     </option>
   </component>
