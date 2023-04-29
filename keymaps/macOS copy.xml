@@ -1,7 +1,11 @@
 <keymap version="1" name="macOS copy" parent="Mac OS X 10.5+">
+  <action id="$EditorTranslateAction">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
   <action id="A8Translate.TranslateAction">
     <keyboard-shortcut first-keystroke="alt 3" />
   </action>
+  <action id="ActivateBookmarksToolWindow" />
   <action id="ActivateDatabaseToolWindow">
     <keyboard-shortcut first-keystroke="alt 2" />
   </action>
@@ -12,6 +16,8 @@
   <action id="CompareClipboardWithSelection">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="FileChooser.GotoProject" />
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="meta f12" />
     <keyboard-shortcut first-keystroke="meta 3" />
@@ -31,5 +37,8 @@
   </action>
   <action id="Tool_External Tools_black">
     <keyboard-shortcut first-keystroke="meta alt l" />
+  </action>
+  <action id="编辑器EditorTranslateAction">
+    <keyboard-shortcut first-keystroke="meta 2" />
   </action>
 </keymap>
