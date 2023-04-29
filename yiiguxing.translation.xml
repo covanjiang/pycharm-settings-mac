@@ -56,6 +56,12 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="The expected output is the translated chunk of text." />
+      <item value="The format of the prompt sent to the model consists of: 1. A high level instruction to translate only the text, but not commands into the desired language 2. A sample untranslated command, where only the content of the chapter name needs to be translated 3. The chunk of text to be translated 4. The translated sample command from 2, which shows the model the beginning of the translation process" />
+      <item value="Notice that adding a sample untranslated and translated first command, where only the content of the chapter name needs to be translated, helps to get more consistent results." />
+      <item value="if adding this chunk would exceed the max length, finalize the current batch and start a new one" />
+      <item value="Group very short chunks, to form approximately a page long chunks." />
+      <item value="It turns out that a double newline is a good separator in this case, in order not to break the flow of the text. Also no individual chunk is larger than 1500 tokens. The model we will use is text-davinci-002, which has a limit of 4096 tokens, so we don't need to worry about breaking the chunks down further. We will group the shorter chunks into chunks of around 1000 tokens, to increase the coherence of the text, and decrease the frequency of breaks within the text." />
       <item value="With permission of the author, we will demonstrate how to translate the book [Euclidean Plane Geometry](https:sites.google.comsiteprojektivna), written by Milan Mitrović from Slovenian into English, without modifying any of the LaTeX commands. To achieve this, we will first split the book into chunks, each roughly a page long, then translate each chunk into English, and finally stitch them back together." />
       <item value="Translate a book writen in LaTeX from Slovenian into English" />
       <item value="Note that the exact way that tokens are counted from messages may change from model to model. Consider the counts from the function below an estimate, not a timeless guarantee." />
@@ -100,17 +106,11 @@
       <item value="GPT-3.5 powered Agents for delegation of simple tasks." />
       <item value="Long Term memory management." />
       <item value="Internet access for searches and information gathering." />
-      <item value="Exclusively use the commands listed in double quotes e.g. &quot;command name&quot;" />
-      <item value="No user assistance" />
-      <item value="If you are unsure how you previously did something or want to recall past events, thinking about similar events will help you remember." />
-      <item value="~4000 word limit for short term memory. Your short term memory is short, so immediately save important information to files." />
-      <item value="constraints" />
-      <item value="Your decisions must always be made independently without seeking user assistance. Play to your strengths as an LLM and pursue simple strategies with no legal complications." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="102" />
-        <entry key="ENGLISH" value="104" />
+        <entry key="CHINESE" value="108" />
+        <entry key="ENGLISH" value="110" />
       </map>
     </option>
   </component>
