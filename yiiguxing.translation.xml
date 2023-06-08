@@ -56,6 +56,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Use tenacity to retry the embedding call" />
       <item value="The chunk size of embeddings. If None, will use the chunk size specified by the class." />
       <item value="Returns: List[str]: List of IDs of the added texts." />
       <item value="Args: texts (Iterable[str]): Texts to add to the vectorstore. metadatas (Optional[List[dict]], optional): Optional list of metadatas. ids (Optional[List[str]], optional): Optional list of IDs." />
@@ -105,12 +106,11 @@
       <item value="Check if there's a result from the command append it to the message" />
       <item value="This hardcodes the model to use GPT3.5. Make this an argument" />
       <item value="Determine which next command to use, and respond using the format specified above" />
-      <item value="Determine which next command to use, and respond using the format specified above:" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="121" />
-        <entry key="ENGLISH" value="123" />
+        <entry key="CHINESE" value="122" />
+        <entry key="ENGLISH" value="124" />
       </map>
     </option>
   </component>
