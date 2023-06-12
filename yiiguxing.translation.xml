@@ -58,6 +58,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&quot;&quot;&quot;Call out to OpenAI's endpoint with k unique prompts. Args: prompts: The prompts to pass into the model. stop: Optional list of stop words to use when generating. Returns: The full LLM output. Example: .. code-block:: python response = openai.generate([&quot;Tell me a joke.&quot;]) &quot;&quot;&quot; TODO: write a unit test for this" />
       <item value="Remove plural from include since db columns are singular" />
       <item value="Either the collection name or the collection uuid must be provided" />
       <item value="&quot;&quot;&quot;Gets the nearest neighbors of a single embedding ⚠️ This method should not be used directly. Args: embedding (Sequence[float]): The embedding to find the nearest neighbors of n_results (int, optional): The number of nearest neighbors to return. Defaults to 10. where (Dict[str, str], optional): A dictionary of key-value pairs to filter the embeddings by. Defaults to {}. &quot;&quot;&quot;" />
@@ -107,12 +108,11 @@
       <item value="Warning: although `.decode()` can be applied to single tokens, beware that it can be lossy for tokens that aren't on utf-8 boundaries." />
       <item value="Count tokens by counting the length of the list returned by `.encode()`." />
       <item value="to automatically load the correct encoding for a given model name." />
-      <item value="The first time this runs, it will require an internet connection to download. Later runs won't need an internet connection." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="143" />
-        <entry key="ENGLISH" value="146" />
+        <entry key="CHINESE" value="144" />
+        <entry key="ENGLISH" value="147" />
       </map>
     </option>
   </component>
