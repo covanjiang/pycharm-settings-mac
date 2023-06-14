@@ -58,6 +58,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Given the context information and not prior knowledge, answer the question" />
       <item value="&quot;&quot;&quot;Wrapper around Azure-specific OpenAI large language models. To use, you should have the ``openai`` python package installed, and the environment variable ``OPENAI_API_KEY`` set with your API key. Any parameters that are valid to be passed to the openai.create call can be passed in, even if not explicitly saved on this class. Example: .. code-block:: python from langchain.llms import AzureOpenAI openai = AzureOpenAI(model_name=&quot;text-davinci-003&quot;) &quot;&quot;&quot;" />
       <item value="Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer." />
       <item value="Call predict on the LLM." />
@@ -107,12 +108,11 @@
       <item value="Notice that adding a sample untranslated and translated first command, where only the content of the chapter name needs to be translated, helps to get more consistent results." />
       <item value="if adding this chunk would exceed the max length, finalize the current batch and start a new one" />
       <item value="Group very short chunks, to form approximately a page long chunks." />
-      <item value="It turns out that a double newline is a good separator in this case, in order not to break the flow of the text. Also no individual chunk is larger than 1500 tokens. The model we will use is text-davinci-002, which has a limit of 4096 tokens, so we don't need to worry about breaking the chunks down further. We will group the shorter chunks into chunks of around 1000 tokens, to increase the coherence of the text, and decrease the frequency of breaks within the text." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="158" />
-        <entry key="ENGLISH" value="161" />
+        <entry key="CHINESE" value="159" />
+        <entry key="ENGLISH" value="162" />
       </map>
     </option>
   </component>
