@@ -6,7 +6,6 @@
       <mapping pattern="1" type="AUTO_DETECTED" />
       <mapping pattern="filter_cdn_list" type="AUTO_DETECTED" />
       <mapping ext="bam" type="PLAIN_TEXT" />
-      <mapping ext="txt" type="PLAIN_TEXT" />
       <mapping ext="bed" type="PLAIN_TEXT" />
       <mapping ext="h5" type="PLAIN_TEXT" />
       <mapping ext="bedgraph" type="PLAIN_TEXT" />
