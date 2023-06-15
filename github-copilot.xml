@@ -1,0 +1,7 @@
+<application>
+  <component name="github-copilot">
+    <disabledLanguages>
+      <option value="Python" />
+    </disabledLanguages>
+  </component>
+</application>
