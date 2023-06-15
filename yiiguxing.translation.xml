@@ -58,6 +58,13 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Batch size to use when passing multiple documents to generate." />
+      <item value="Holds any model parameters valid for `create` call not explicitly specified." />
+      <item value="Generates best_of completions server-side and returns the &quot;best&quot;." />
+      <item value="How many completions to generate for each prompt." />
+      <item value="Penalizes repeated tokens." />
+      <item value="Penalizes repeated tokens according to frequency." />
+      <item value="The maximum number of tokens to generate in the completion. -1 returns as many tokens as possible given the prompt and the models maximal context size." />
       <item value="Given the context information and not prior knowledge, answer the question" />
       <item value="&quot;&quot;&quot;Wrapper around Azure-specific OpenAI large language models. To use, you should have the ``openai`` python package installed, and the environment variable ``OPENAI_API_KEY`` set with your API key. Any parameters that are valid to be passed to the openai.create call can be passed in, even if not explicitly saved on this class. Example: .. code-block:: python from langchain.llms import AzureOpenAI openai = AzureOpenAI(model_name=&quot;text-davinci-003&quot;) &quot;&quot;&quot;" />
       <item value="Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer." />
@@ -101,18 +108,11 @@
       <item value="Create a Chroma vectorstore from a raw documents. If a persist_directory is specified, the collection will be persisted there. Otherwise, the data will be ephemeral in-memory. Args: texts (List[str]): List of texts to add to the collection. collection_name (str): Name of the collection to create. persist_directory (Optional[str]): Directory to persist the collection. embedding (Optional[Embeddings]): Embedding function. Defaults to None. metadatas (Optional[List[dict]]): List of metadatas. Defaults to None. ids (Optional[List[str]]): List of document IDs. Defaults to None. client_settings (Optional[chromadb.config.Settings]): Chroma client settings Returns: Chroma: Chroma vectorstore." />
       <item value="Maximum number of texts to embed in each batch" />
       <item value="Wrapper around OpenAI embedding models. To use, you should have the ``openai`` python package installed, and the environment variable ``OPENAI_API_KEY`` set with your API key or pass it as a named parameter to the constructor. Example: .. code-block:: python from langchain.embeddings import OpenAIEmbeddings openai = OpenAIEmbeddings(openai_api_key=&quot;my-api-key&quot;) In order to use the library with Microsoft Azure endpoints, you need to set the OPENAI_API_TYPE, OPENAI_API_BASE, OPENAI_API_KEY and optionally and API_VERSION. The OPENAI_API_TYPE must be set to 'azure' and the others correspond to the properties of your endpoint. In addition, the deployment name must be passed as the model parameter. Example: .. code-block:: python import os os.environ[&quot;OPENAI_API_TYPE&quot;] = &quot;azure&quot; os.environ[&quot;OPENAI_API_BASE&quot;] = &quot;https:&lt;your-endpoint.openai.azure.com&quot; os.environ[&quot;OPENAI_API_KEY&quot;] = &quot;your AzureOpenAI key&quot; from langchain.embeddings.openai import OpenAIEmbeddings embeddings = OpenAIEmbeddings( deployment=&quot;your-embeddings-deployment-name&quot;, model=&quot;your-embeddings-model-name&quot; ) text = &quot;This is a test query.&quot; query_result = embeddings.embed_query(text)" />
-      <item value="The Chatbot Kickstarter is a starter repo to get you used to building basic a basic Chatbot using the ChatGPT API and your own knowledge base. The flow you're taken through was originally presented with [these slides](https:drive.google.comfiled1dB-RQhZC_Q1iAsHkNNdkqtxxXqYODFYyview?usp=share_link), which may come in useful to refer to." />
-      <item value="The Chatbot Kickstarter is a starter repo to get you used to building basic a basic Chatbot using the ChatGPT API and your own knowledge base. The flow you're taken through was originally presented with [these slides](https:drive.google." />
-      <item value="The expected output is the translated chunk of text." />
-      <item value="The format of the prompt sent to the model consists of: 1. A high level instruction to translate only the text, but not commands into the desired language 2. A sample untranslated command, where only the content of the chapter name needs to be translated 3. The chunk of text to be translated 4. The translated sample command from 2, which shows the model the beginning of the translation process" />
-      <item value="Notice that adding a sample untranslated and translated first command, where only the content of the chapter name needs to be translated, helps to get more consistent results." />
-      <item value="if adding this chunk would exceed the max length, finalize the current batch and start a new one" />
-      <item value="Group very short chunks, to form approximately a page long chunks." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="159" />
-        <entry key="ENGLISH" value="162" />
+        <entry key="CHINESE" value="167" />
+        <entry key="ENGLISH" value="170" />
       </map>
     </option>
   </component>
