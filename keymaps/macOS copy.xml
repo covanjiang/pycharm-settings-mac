@@ -41,6 +41,9 @@
   <action id="Tool_External Tools_black">
     <keyboard-shortcut first-keystroke="meta alt l" />
   </action>
+  <action id="copilot.enableCopilot">
+    <keyboard-shortcut first-keystroke="ctrl meta alt o" />
+  </action>
   <action id="编辑器EditorTranslateAction">
     <keyboard-shortcut first-keystroke="meta 2" />
   </action>
