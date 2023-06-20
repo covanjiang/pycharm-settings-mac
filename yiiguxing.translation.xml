@@ -51,13 +51,14 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1686723524101" />
+    <option name="lastTrimTime" value="1687245973299" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogX" value="912" />
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="PEP 8: E741 ambiguous variable name 'l'" />
       <item value="Batch size to use when passing multiple documents to generate." />
       <item value="Holds any model parameters valid for `create` call not explicitly specified." />
       <item value="Generates best_of completions server-side and returns the &quot;best&quot;." />
@@ -107,11 +108,10 @@
       <item value="poor man's unique constraint" />
       <item value="Create a Chroma vectorstore from a raw documents. If a persist_directory is specified, the collection will be persisted there. Otherwise, the data will be ephemeral in-memory. Args: texts (List[str]): List of texts to add to the collection. collection_name (str): Name of the collection to create. persist_directory (Optional[str]): Directory to persist the collection. embedding (Optional[Embeddings]): Embedding function. Defaults to None. metadatas (Optional[List[dict]]): List of metadatas. Defaults to None. ids (Optional[List[str]]): List of document IDs. Defaults to None. client_settings (Optional[chromadb.config.Settings]): Chroma client settings Returns: Chroma: Chroma vectorstore." />
       <item value="Maximum number of texts to embed in each batch" />
-      <item value="Wrapper around OpenAI embedding models. To use, you should have the ``openai`` python package installed, and the environment variable ``OPENAI_API_KEY`` set with your API key or pass it as a named parameter to the constructor. Example: .. code-block:: python from langchain.embeddings import OpenAIEmbeddings openai = OpenAIEmbeddings(openai_api_key=&quot;my-api-key&quot;) In order to use the library with Microsoft Azure endpoints, you need to set the OPENAI_API_TYPE, OPENAI_API_BASE, OPENAI_API_KEY and optionally and API_VERSION. The OPENAI_API_TYPE must be set to 'azure' and the others correspond to the properties of your endpoint. In addition, the deployment name must be passed as the model parameter. Example: .. code-block:: python import os os.environ[&quot;OPENAI_API_TYPE&quot;] = &quot;azure&quot; os.environ[&quot;OPENAI_API_BASE&quot;] = &quot;https:&lt;your-endpoint.openai.azure.com&quot; os.environ[&quot;OPENAI_API_KEY&quot;] = &quot;your AzureOpenAI key&quot; from langchain.embeddings.openai import OpenAIEmbeddings embeddings = OpenAIEmbeddings( deployment=&quot;your-embeddings-deployment-name&quot;, model=&quot;your-embeddings-model-name&quot; ) text = &quot;This is a test query.&quot; query_result = embeddings.embed_query(text)" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="167" />
+        <entry key="CHINESE" value="168" />
         <entry key="ENGLISH" value="170" />
       </map>
     </option>
