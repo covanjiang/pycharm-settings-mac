@@ -58,6 +58,8 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Split each pair by one or more newline characters possibly surrounded by whitespaces" />
+      <item value="Split the content by two or more newline characters possibly surrounded by whitespaces" />
       <item value="Returns an active Redis client generated from the given database URL. Will attempt to extract the database id from the path url fragment, if none is provided." />
       <item value="You might need to adjust how you initialize your database, feishu client, and vector database, based on how FastAPI handles asynchronous operations." />
       <item value="PEP 8: E741 ambiguous variable name 'l'" />
@@ -106,13 +108,11 @@
       <item value="Args: texts (Iterable[str]): Texts to add to the vectorstore. metadatas (Optional[List[dict]], optional): Optional list of metadatas. ids (Optional[List[str]], optional): Optional list of IDs." />
       <item value="Run more texts through the embeddings and add to the vectorstore." />
       <item value="&quot;&quot;&quot;Run more texts through the embeddings and add to the vectorstore. Args: texts (Iterable[str]): Texts to add to the vectorstore. metadatas (Optional[List[dict]], optional): Optional list of metadatas. ids (Optional[List[str]], optional): Optional list of IDs. Returns: List[str]: List of IDs of the added texts. &quot;&quot;&quot; TODO: Handle the case where the user doesn't provide ids on the Collection" />
-      <item value="TODO: inherits ClickHouse for convenience of copying behavior, not because it's logically a subtype. Factoring out the common behavior to a third superclass they both extend would be preferable." />
-      <item value="poor man's unique constraint" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="170" />
-        <entry key="ENGLISH" value="172" />
+        <entry key="CHINESE" value="172" />
+        <entry key="ENGLISH" value="174" />
       </map>
     </option>
   </component>
