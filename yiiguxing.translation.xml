@@ -51,13 +51,14 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1687245973299" />
+    <option name="lastTrimTime" value="1687940288833" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogX" value="912" />
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="close: if left at its default of ``True``, has the effect of fully closing all currently checked in database connections. Connections that are still checked out will not be closed, however they will no longer be associated with this :class:`_engine.Engine`, so when they are closed individually, eventually the :class:`_pool.Pool` which they are associated with will be garbage collected and they will be closed out fully, if not already closed on checkin." />
       <item value="Split each pair by one or more newline characters possibly surrounded by whitespaces" />
       <item value="Split the content by two or more newline characters possibly surrounded by whitespaces" />
       <item value="Returns an active Redis client generated from the given database URL. Will attempt to extract the database id from the path url fragment, if none is provided." />
@@ -107,12 +108,11 @@
       <item value="Returns: List[str]: List of IDs of the added texts." />
       <item value="Args: texts (Iterable[str]): Texts to add to the vectorstore. metadatas (Optional[List[dict]], optional): Optional list of metadatas. ids (Optional[List[str]], optional): Optional list of IDs." />
       <item value="Run more texts through the embeddings and add to the vectorstore." />
-      <item value="&quot;&quot;&quot;Run more texts through the embeddings and add to the vectorstore. Args: texts (Iterable[str]): Texts to add to the vectorstore. metadatas (Optional[List[dict]], optional): Optional list of metadatas. ids (Optional[List[str]], optional): Optional list of IDs. Returns: List[str]: List of IDs of the added texts. &quot;&quot;&quot; TODO: Handle the case where the user doesn't provide ids on the Collection" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="172" />
-        <entry key="ENGLISH" value="174" />
+        <entry key="CHINESE" value="173" />
+        <entry key="ENGLISH" value="175" />
       </map>
     </option>
   </component>
