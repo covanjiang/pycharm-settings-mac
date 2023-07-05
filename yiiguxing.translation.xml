@@ -58,6 +58,10 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="The model name to pass to tiktoken when using this class. Tiktoken is used to count the number of tokens in documents to constrain them to be under a certain limit. By default, when set to None, this will be the same as the embedding model name. However, there are some cases where you may want to use this Embedding class with a model name not supported by tiktoken. This can include when using Azure embeddings or when using one of the many model providers that expose an OpenAI-like API but with different models. In those cases, in order to avoid erroring when tiktoken is called, you can specify a model name to use here." />
+      <item value="Penalizes repeated tokens according to frequency." />
+      <item value="Total probability mass of tokens to consider at each step." />
+      <item value="The maximum number of tokens to generate in the completion. -1 returns as many tokens as possible given the prompt and the models maximal context size." />
       <item value="Pears are either red or orange" />
       <item value="it was night and the witness forgot his glasses. he was not sure if it was a sports car or an suv" />
       <item value="How to determine the score: - Higher is a better answer - Better responds fully to the asked question, with sufficient level of detail - If you do not know the answer based on the context, that should be a score of 0 - Don't be overconfident!" />
@@ -76,8 +80,6 @@
       <item value="Generates best_of completions server-side and returns the &quot;best&quot;." />
       <item value="How many completions to generate for each prompt." />
       <item value="Penalizes repeated tokens." />
-      <item value="Penalizes repeated tokens according to frequency." />
-      <item value="The maximum number of tokens to generate in the completion. -1 returns as many tokens as possible given the prompt and the models maximal context size." />
       <item value="Given the context information and not prior knowledge, answer the question" />
       <item value="&quot;&quot;&quot;Wrapper around Azure-specific OpenAI large language models. To use, you should have the ``openai`` python package installed, and the environment variable ``OPENAI_API_KEY`` set with your API key. Any parameters that are valid to be passed to the openai.create call can be passed in, even if not explicitly saved on this class. Example: .. code-block:: python from langchain.llms import AzureOpenAI openai = AzureOpenAI(model_name=&quot;text-davinci-003&quot;) &quot;&quot;&quot;" />
       <item value="Use the following pieces of context to answer the question at the end. If you don't know the answer, just say that you don't know, don't try to make up an answer." />
@@ -106,13 +108,11 @@
       <item value="&quot;You are trying to use a chat model. This way of initializing it is &quot; &quot;no longer supported. Instead, please use: &quot; &quot;`from langchain.chat_models import ChatOpenAI`&quot;" />
       <item value="&quot;&quot;&quot;Get documents relevant for a query. Args: query: string to find relevant documents for Returns: List of relevant documents &quot;&quot;&quot;" />
       <item value="&quot;&quot;&quot;Chain for question-answering against an index. Example: .. code-block:: python from langchain.llms import OpenAI from langchain.chains import RetrievalQA from langchain.faiss import FAISS from langchain.vectorstores.base import VectorStoreRetriever retriever = VectorStoreRetriever(vectorstore=FAISS(...)) retrievalQA = RetrievalQA.from_llm(llm=OpenAI(), retriever=retriever) &quot;&quot;&quot;" />
-      <item value="Chain for question-answering against a vector database" />
-      <item value="should this return the ids of the succesfully added items?" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="179" />
-        <entry key="ENGLISH" value="181" />
+        <entry key="CHINESE" value="183" />
+        <entry key="ENGLISH" value="185" />
       </map>
     </option>
   </component>
