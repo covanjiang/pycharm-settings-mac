@@ -58,6 +58,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Wrapper around Azure OpenAI Chat Completion API. To use this class you must have a deployed model on Azure OpenAI. Use `deployment_name` in the constructor to refer to the &quot;Model deployment name&quot; in the Azure portal." />
       <item value="The model name to pass to tiktoken when using this class. Tiktoken is used to count the number of tokens in documents to constrain them to be under a certain limit. By default, when set to None, this will be the same as the embedding model name. However, there are some cases where you may want to use this Embedding class with a model name not supported by tiktoken. This can include when using Azure embeddings or when using one of the many model providers that expose an OpenAI-like API but with different models. In those cases, in order to avoid erroring when tiktoken is called, you can specify a model name to use here." />
       <item value="Penalizes repeated tokens according to frequency." />
       <item value="Total probability mass of tokens to consider at each step." />
@@ -107,12 +108,11 @@
       <item value="&quot;&quot;&quot;Load question answering chain. Args: llm: Language Model to use in the chain. chain_type: Type of document combining chain to use. Should be one of &quot;stuff&quot;, &quot;map_reduce&quot;, &quot;map_rerank&quot;, and &quot;refine&quot;. verbose: Whether chains should be run in verbose mode or not. Note that this applies to all chains that make up the final chain. callback_manager: Callback manager to use for the chain. Returns: A chain to use for question answering. &quot;&quot;&quot;" />
       <item value="&quot;You are trying to use a chat model. This way of initializing it is &quot; &quot;no longer supported. Instead, please use: &quot; &quot;`from langchain.chat_models import ChatOpenAI`&quot;" />
       <item value="&quot;&quot;&quot;Get documents relevant for a query. Args: query: string to find relevant documents for Returns: List of relevant documents &quot;&quot;&quot;" />
-      <item value="&quot;&quot;&quot;Chain for question-answering against an index. Example: .. code-block:: python from langchain.llms import OpenAI from langchain.chains import RetrievalQA from langchain.faiss import FAISS from langchain.vectorstores.base import VectorStoreRetriever retriever = VectorStoreRetriever(vectorstore=FAISS(...)) retrievalQA = RetrievalQA.from_llm(llm=OpenAI(), retriever=retriever) &quot;&quot;&quot;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="183" />
-        <entry key="ENGLISH" value="185" />
+        <entry key="CHINESE" value="184" />
+        <entry key="ENGLISH" value="186" />
       </map>
     </option>
   </component>
