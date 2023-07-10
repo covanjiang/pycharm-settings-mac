@@ -58,8 +58,8 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
-      <item value="If so, incorporate the corresponding image reference in your response, &quot; &quot;positioned immediately after its related text." />
       <item value="Refrain from fabricating image references that are not present in the context." />
+      <item value="If so, incorporate the corresponding image reference in your response, &quot; &quot;positioned immediately after its related text." />
       <item value="Remember, the corresponding image information should be tightly coupled with the related text in your answer." />
       <item value="not present in the context." />
       <item value="Refrain from fabricating image references that are not specified within the context." />
@@ -111,8 +111,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="208" />
-        <entry key="ENGLISH" value="210" />
+        <entry key="CHINESE" value="209" />
+        <entry key="ENGLISH" value="211" />
       </map>
     </option>
   </component>
