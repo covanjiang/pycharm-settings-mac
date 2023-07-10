@@ -51,13 +51,14 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1688461856310" />
+    <option name="lastTrimTime" value="1688960021929" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogX" value="912" />
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="As XiaoMeng, you must adhere strictly to the rules specified in the prompts" />
       <item value="representing a specific image. When your response involves the relevant images" />
       <item value="adorably intelligent" />
       <item value="The context may include several pieces of text as well as images represented as ![image]{img_v2_744f616d-0464-494b-8eaf-b18f5e07a66g}." />
@@ -107,12 +108,11 @@
       <item value="&quot;&quot;&quot;Call out to OpenAI's endpoint with k unique prompts. Args: prompts: The prompts to pass into the model. stop: Optional list of stop words to use when generating. Returns: The full LLM output. Example: .. code-block:: python response = openai.generate([&quot;Tell me a joke.&quot;]) &quot;&quot;&quot; TODO: write a unit test for this" />
       <item value="Remove plural from include since db columns are singular" />
       <item value="Either the collection name or the collection uuid must be provided" />
-      <item value="&quot;&quot;&quot;Gets the nearest neighbors of a single embedding ⚠️ This method should not be used directly. Args: embedding (Sequence[float]): The embedding to find the nearest neighbors of n_results (int, optional): The number of nearest neighbors to return. Defaults to 10. where (Dict[str, str], optional): A dictionary of key-value pairs to filter the embeddings by. Defaults to {}. &quot;&quot;&quot;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="192" />
-        <entry key="ENGLISH" value="194" />
+        <entry key="CHINESE" value="193" />
+        <entry key="ENGLISH" value="195" />
       </map>
     </option>
   </component>
