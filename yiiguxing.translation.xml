@@ -58,6 +58,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Incorporating these can help provide more detailed and accurate information." />
       <item value="The default language is Chinese. Provide your responses straightaway, &quot; &quot;without any added explanation or phrases like 'according to the provided context' or&quot; &quot;'根据提供的上下文'." />
       <item value="This signature conclusively signifies the AI's contribution and provides a point of contact for further inquiries." />
       <item value="Additionally, the image references mentioned within these instructions should be disregarded." />
@@ -107,12 +108,11 @@
       <item value="Returns an active Redis client generated from the given database URL. Will attempt to extract the database id from the path url fragment, if none is provided." />
       <item value="You might need to adjust how you initialize your database, feishu client, and vector database, based on how FastAPI handles asynchronous operations." />
       <item value="PEP 8: E741 ambiguous variable name 'l'" />
-      <item value="Batch size to use when passing multiple documents to generate." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="218" />
-        <entry key="ENGLISH" value="221" />
+        <entry key="CHINESE" value="220" />
+        <entry key="ENGLISH" value="223" />
       </map>
     </option>
   </component>
