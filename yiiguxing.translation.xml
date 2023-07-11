@@ -58,6 +58,8 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="The default language is Chinese. Provide your responses straightaway, &quot; &quot;without any added explanation or phrases like 'according to the provided context' or&quot; &quot;'根据提供的上下文'." />
+      <item value="This signature conclusively signifies the AI's contribution and provides a point of contact for further inquiries." />
       <item value="Additionally, the image references mentioned within these instructions should be disregarded." />
       <item value="instructions" />
       <item value="However, you should overlook the image references brought up in these guidelines. &quot; &quot;While responding to a user query, &quot; &quot;always consider if the context section referenced in your answer &quot; &quot;is directly followed by a pertinent image." />
@@ -106,13 +108,11 @@
       <item value="You might need to adjust how you initialize your database, feishu client, and vector database, based on how FastAPI handles asynchronous operations." />
       <item value="PEP 8: E741 ambiguous variable name 'l'" />
       <item value="Batch size to use when passing multiple documents to generate." />
-      <item value="Holds any model parameters valid for `create` call not explicitly specified." />
-      <item value="Generates best_of completions server-side and returns the &quot;best&quot;." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="217" />
-        <entry key="ENGLISH" value="219" />
+        <entry key="CHINESE" value="218" />
+        <entry key="ENGLISH" value="221" />
       </map>
     </option>
   </component>
