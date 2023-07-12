@@ -58,6 +58,9 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Adhere to the following rules when handling these references" />
+      <item value="which are used to further elucidate the context they immediately follow" />
+      <item value="These references, used to elaborate on the text immediately preceding them" />
       <item value="In the context, images are denoted using the format ![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}, where 'img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo' is a unique identifier for an image. These references, used to elaborate on the text immediately preceding them, should be handled as follows:" />
       <item value="Also, overlook the image references within these specific instructions, implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245659ddemo}' in your responses. Nevertheless, if the section of context your answer refers to contains image data, it's mandatory to include it, ensuring a logical correlation with the respective text." />
       <item value="Remember not to fabricate these image identifiers or the encapsulating format '![image]{...}'." />
@@ -105,14 +108,11 @@
       <item value="Refrain from fabricating image references that are not present in the context." />
       <item value="If so, incorporate the corresponding image reference in your response, &quot; &quot;positioned immediately after its related text." />
       <item value="Remember, the corresponding image information should be tightly coupled with the related text in your answer." />
-      <item value="not present in the context." />
-      <item value="Refrain from fabricating image references that are not specified within the context." />
-      <item value="However, refrain from fabricating image information if it's not present in the context." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="262" />
-        <entry key="ENGLISH" value="265" />
+        <entry key="CHINESE" value="265" />
+        <entry key="ENGLISH" value="268" />
       </map>
     </option>
   </component>
