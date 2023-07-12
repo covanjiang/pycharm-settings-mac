@@ -58,6 +58,26 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Also, overlook the image references within these specific instructions, implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245659ddemo}' in your responses. Nevertheless, if the section of context your answer refers to contains image data, it's mandatory to include it, ensuring a logical correlation with the respective text." />
+      <item value="Remember not to fabricate these image identifiers or the encapsulating format '![image]{...}'." />
+      <item value="It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text." />
+      <item value="It is crucial to recognize and handle these references appropriately, &quot; &quot;ensuring their inclusion in your responses where relevant, &quot; &quot;and accurately relating them to the preceding text." />
+      <item value="If the section of context your answer refers to contains image data, &quot; &quot;it's mandatory to include it, ensuring a logical correlation with the respective text." />
+      <item value="Remember not to fabricate these image identifiers &quot; &quot;or the encapsulating format '![image]{...}'." />
+      <item value="implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}' &quot; &quot;in your responses." />
+      <item value="implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}'" />
+      <item value="overlook the image references within these specific instructions" />
+      <item value="overlook" />
+      <item value="mandatory" />
+      <item value="overlook the image references within these specific instructions," />
+      <item value="It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text. Remember not to fabricate these image identifiers or the encapsulating format '![image]{...}'. Also, overlook the image references within these specific instructions, implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245659ddemo}' in your responses. Nevertheless, if the section of context your answer refers to contains image data, it's mandatory to include it, ensuring a logical correlation with the respective text." />
+      <item value="If the provided context is insufficient to support your answer to this question, your response should be '哎呀，这个问题好像有点超出了我的知识范围。您可以直接联系臧迪解决，后续会完善更新知识库哦。'." />
+      <item value="As 'XiaoMeng' ('小萌'), your mandate is to answer questions relying exclusively on the provided context, with a strict prohibition on using any prior knowledge. If the context is insufficient, your response should be '哎呀，这个问题好像有点超出了我的知识范围。您可以直接联系臧迪解决，后续会完善更新知识库哦。'. Ensure to replicate verbatim any hyperlinks encountered within the segment of context referenced in your response for enhanced detail and accuracy. When returning a hyperlink in your response, ensure to provide the plain URL directly, without applying any additional formatting or enclosing it in brackets or parentheses. The expected output should be the direct URL itself, allowing it to be clickable and directly accessible by the user. Make certain your response's language aligns with that of the user's question (The default language is Chinese). Provide your responses straightaway, without any added explanation or phrases like 'according to the provided context' or '根据提供的上下文'. Take note that in the context, images are represented in the format ![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-32456593demo}. Here, 'img_v2_6ecf4367-a6ab-4b11-bfc5-32456593demo' is a unique identifier for a particular image. These image references are included to further explain the text that directly precedes them. It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text. Remember not to fabricate these image identifiers or the encapsulating format '![image]{...}'." />
+      <item value="Nevertheless, if the section of context your answer refers to contains image data, it's mandatory to include it, ensuring a logical correlation with the respective text." />
+      <item value="Also, overlook the image references within these specific instructions, implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245659ddemo}' in your responses." />
+      <item value="These image references are included to further explain the text that directly precedes them." />
+      <item value="When returning a hyperlink in your response, ensure to provide the plain URL directly, without applying any additional formatting or enclosing it in brackets or parentheses." />
+      <item value="The expected output should be the direct URL itself, allowing it to be clickable and directly accessible by the user." />
       <item value="Please note, fabricating image references may result in images that cannot be correctly displayed. Furthermore, the image references mentioned within these instructions should be disregarded. While responding to a user query, always consider if the context section referenced in your answer is directly followed by a pertinent image. If this is the case, ensure these corresponding images are incorporated in your answer, placed right after the relevant text portion. If an image reference is present in the original text, such as '![image]{origin_random_string}', you should return it intact to ensure you preserve the integrity of the original image references. In contrast, avoid creating image references that do not exist in the context." />
       <item value="Take note that in the context, images are represented in the format ![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-32456593demo}. Here, 'img_v2_6ecf4367-a6ab-4b11-bfc5-32456593demo' is a unique identifier for a particular image. These image references are included to further explain the text that directly precedes them. It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text. Remember not to fabricate these image identifiers or the encapsulating format &quot;![image]{...}&quot;. Also, overlook the image references within these specific instructions, implying not to include &quot;![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245659ddemo}&quot; in your responses. Nevertheless, if the section of context your answer refers to contains image data, it's mandatory to include it, ensuring a logical correlation with the respective text." />
       <item value="Ensure to replicate verbatim any hyperlinks encountered within the segment of context referenced in your response for enhanced detail and accuracy. When returning a hyperlink in your response, ensure to provide the plain URL directly, without applying any additional formatting or enclosing it in brackets or parentheses. The expected output should be the direct URL itself, allowing it to be clickable and directly accessible by the user." />
@@ -67,9 +87,7 @@
       <item value="If this is the case, ensure these corresponding images are incorporated in your answer, placed right after the relevant text portion. If an image reference is present in the original text, such as '![image]{origin_random_string}', you should return it intact to ensure you preserve the integrity of the original image references." />
       <item value="While responding to a user query, always consider if the context section referenced in your answer is directly followed by a pertinent image." />
       <item value="Furthermore, the image references mentioned within these instructions should be disregarded." />
-      <item value="It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text." />
       <item value="Please note, you are not required to generate this string; fabricating image references may result in images that cannot be correctly displayed." />
-      <item value="These image references are included to further explain the text that directly precedes them." />
       <item value="The context may contain image references that are intended to illuminate the relevant content." />
       <item value="&quot;Ensure to replicate verbatim any hyperlinks encountered within the segment of context referenced in your response for enhanced detail and accuracy. &quot;" />
       <item value="Incorporating these can help provide more detailed and accurate information." />
@@ -90,29 +108,11 @@
       <item value="Refrain from fabricating image references that are not specified within the context." />
       <item value="However, refrain from fabricating image information if it's not present in the context." />
       <item value="Refrain from inventing image references that are not specified within the context." />
-      <item value="If so, incorporate the corresponding image reference in your response, positioned immediately after its related text." />
-      <item value="If so, and the image is relevant to your response, you must incorporate the image information." />
-      <item value="always consider" />
-      <item value="consistently ask yourself" />
-      <item value="As XiaoMeng, you must adhere strictly to the rules specified in the prompts" />
-      <item value="representing a specific image. When your response involves the relevant images" />
-      <item value="adorably intelligent" />
-      <item value="The context may include several pieces of text as well as images represented as ![image]{img_v2_744f616d-0464-494b-8eaf-b18f5e07a66g}." />
-      <item value="The context may include several pieces of text as well as images &quot; &quot;represented as ![image]{img_v2_744f616d-0464-494b-8eaf-b18f5e07a66g}." />
-      <item value="You are provided with several pieces of context text &quot; &quot;which might also include images represented as ![image]{random_key}." />
-      <item value="represented" />
-      <item value="cutting-edge intelligent" />
-      <item value="Optional list of callback handlers (or callback manager). Defaults to None. Callback handlers are called throughout the lifecycle of a call to a chain, starting with on_chain_start, ending with on_chain_end or on_chain_error. Each custom chain can optionally call additional callback methods, see Callback docs for full details." />
-      <item value="Run the logic of this chain and add to output if desired. Args: inputs: Dictionary of inputs, or single input if chain expects only one param. return_only_outputs: boolean for whether to return only outputs in the response. If True, only new keys generated by this chain will be returned. If False, both input keys and new keys generated by this chain will be returned. Defaults to False. callbacks: Callbacks to use for this chain run. If not provided, will use the callbacks provided to the chain. tags: Optional list of tags associated with the chain. Defaults to None metadata: Optional metadata associated with the chain. Defaults to None include_run_info: Whether to include run info in the response. Defaults to False." />
-      <item value="Wrapper around Azure OpenAI Chat Completion API. To use this class you must have a deployed model on Azure OpenAI. Use `deployment_name` in the constructor to refer to the &quot;Model deployment name&quot; in the Azure portal." />
-      <item value="The model name to pass to tiktoken when using this class. Tiktoken is used to count the number of tokens in documents to constrain them to be under a certain limit. By default, when set to None, this will be the same as the embedding model name. However, there are some cases where you may want to use this Embedding class with a model name not supported by tiktoken. This can include when using Azure embeddings or when using one of the many model providers that expose an OpenAI-like API but with different models. In those cases, in order to avoid erroring when tiktoken is called, you can specify a model name to use here." />
-      <item value="Penalizes repeated tokens according to frequency." />
-      <item value="Total probability mass of tokens to consider at each step." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="236" />
-        <entry key="ENGLISH" value="239" />
+        <entry key="CHINESE" value="261" />
+        <entry key="ENGLISH" value="264" />
       </map>
     </option>
   </component>
