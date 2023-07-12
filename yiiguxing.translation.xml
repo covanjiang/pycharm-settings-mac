@@ -58,6 +58,14 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&quot;3. When referencing the context to answer a question, &quot; &quot;if there are image references in the context, &quot; &quot;first divide the context into several sections based on these images. &quot; &quot;Then, respond to the question according to each section, &quot; &quot;and use the corresponding image references to &quot; &quot;connect the answers together to form a complete response to the question. \n&quot;" />
+      <item value="&quot;3. When referencing the context to answer questions, &quot; &quot;if there are image references within the context, &quot; &quot;first split the context into sections according to these image references. &quot; &quot;Then, answer the questions based on each section. &quot; &quot;Finally, connect your answers using the corresponding image references &quot; &quot;to provide a holistic response to the question. \n&quot;" />
+      <item value="and use the corresponding image references to &quot; &quot;connect the answers together to form a complete response to the question." />
+      <item value="Then, respond to the question according to each section," />
+      <item value="first divide the context into several sections based on these images." />
+      <item value="Finally, connect your answers using the corresponding image references" />
+      <item value="Then, answer the questions based on each section." />
+      <item value="first split the context into sections according to these image references." />
       <item value="It's crucial to place the image reference accurately in your response. The image reference must be inserted right after the sentence or paragraph that describes or refers to the content of the image." />
       <item value="Every time you respond to a user's question, you should ask yourself whether there are image references related to the context you are referencing in your response. If there are, include these image references at the correct position in your response to enhance its accuracy and reliability." />
       <item value="Each time you respond to a user's question, always ask yourself: Is there a related image reference in the context? If there is, you must include the corresponding image reference in your response, and the image reference should directly follow its related content." />
@@ -100,19 +108,11 @@
       <item value="Incorporating these can help provide more detailed and accurate information." />
       <item value="The default language is Chinese. Provide your responses straightaway, &quot; &quot;without any added explanation or phrases like 'according to the provided context' or&quot; &quot;'根据提供的上下文'." />
       <item value="This signature conclusively signifies the AI's contribution and provides a point of contact for further inquiries." />
-      <item value="Additionally, the image references mentioned within these instructions should be disregarded." />
-      <item value="instructions" />
-      <item value="However, you should overlook the image references brought up in these guidelines. &quot; &quot;While responding to a user query, &quot; &quot;always consider if the context section referenced in your answer &quot; &quot;is directly followed by a pertinent image." />
-      <item value="The context may involve image references designed to help clarify the relevant material." />
-      <item value="Conclude all your responses with the phrase" />
-      <item value="It's imperative that you strictly adhere to the rules specified when answering questions." />
-      <item value="Disregard the images mentioned in this tips." />
-      <item value="Deliver your responses directly without any additional explanation &quot; &quot;or the use of phrases like 'according to the provided context'." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="268" />
-        <entry key="ENGLISH" value="271" />
+        <entry key="CHINESE" value="277" />
+        <entry key="ENGLISH" value="280" />
       </map>
     </option>
   </component>
