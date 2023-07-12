@@ -58,6 +58,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="In the context, images are denoted using the format ![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}, where 'img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo' is a unique identifier for an image. These references, used to elaborate on the text immediately preceding them, should be handled as follows:" />
       <item value="Also, overlook the image references within these specific instructions, implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245659ddemo}' in your responses. Nevertheless, if the section of context your answer refers to contains image data, it's mandatory to include it, ensuring a logical correlation with the respective text." />
       <item value="Remember not to fabricate these image identifiers or the encapsulating format '![image]{...}'." />
       <item value="It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text." />
@@ -107,12 +108,11 @@
       <item value="not present in the context." />
       <item value="Refrain from fabricating image references that are not specified within the context." />
       <item value="However, refrain from fabricating image information if it's not present in the context." />
-      <item value="Refrain from inventing image references that are not specified within the context." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="261" />
-        <entry key="ENGLISH" value="264" />
+        <entry key="CHINESE" value="262" />
+        <entry key="ENGLISH" value="265" />
       </map>
     </option>
   </component>
