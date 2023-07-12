@@ -58,6 +58,9 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="It's crucial to place the image reference accurately in your response. The image reference must be inserted right after the sentence or paragraph that describes or refers to the content of the image." />
+      <item value="Every time you respond to a user's question, you should ask yourself whether there are image references related to the context you are referencing in your response. If there are, include these image references at the correct position in your response to enhance its accuracy and reliability." />
+      <item value="Each time you respond to a user's question, always ask yourself: Is there a related image reference in the context? If there is, you must include the corresponding image reference in your response, and the image reference should directly follow its related content." />
       <item value="Adhere to the following rules when handling these references" />
       <item value="which are used to further elucidate the context they immediately follow" />
       <item value="These references, used to elaborate on the text immediately preceding them" />
@@ -105,14 +108,11 @@
       <item value="It's imperative that you strictly adhere to the rules specified when answering questions." />
       <item value="Disregard the images mentioned in this tips." />
       <item value="Deliver your responses directly without any additional explanation &quot; &quot;or the use of phrases like 'according to the provided context'." />
-      <item value="Refrain from fabricating image references that are not present in the context." />
-      <item value="If so, incorporate the corresponding image reference in your response, &quot; &quot;positioned immediately after its related text." />
-      <item value="Remember, the corresponding image information should be tightly coupled with the related text in your answer." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="265" />
-        <entry key="ENGLISH" value="268" />
+        <entry key="CHINESE" value="268" />
+        <entry key="ENGLISH" value="271" />
       </map>
     </option>
   </component>
