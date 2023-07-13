@@ -58,6 +58,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="It is possible to do more validation of the headers, but a request could always be made to the API manually with invalid headers, so we need to handle them server side." />
       <item value="Wait 2^x 1 second between each retry starting with 4 seconds, then up to 10 seconds, then 10 seconds afterwards" />
       <item value="Encodes a string into tokens. Special tokens are artificial tokens used to unlock capabilities from a model, such as fill-in-the-middle. So we want to be careful about accidentally encoding special tokens, since they can be used to trick a model into doing something we don't want it to do. Hence, by default, encode will raise an error if it encounters text that corresponds to a special token. This can be controlled on a per-token level using the `allowed_special` and `disallowed_special` parameters. In particular: - Setting `disallowed_special` to () will prevent this function from raising errors and cause all text corresponding to special tokens to be encoded as natural text. - Setting `allowed_special` to &quot;all&quot; will cause this function to treat all text corresponding to special tokens to be encoded as special tokens." />
       <item value="Check if the model matches a known prefix Prefix matching avoids needing library updates for every model version release Note that this can match on non-existent models (e.g., gpt-3.5-turbo-FAKE)" />
@@ -107,12 +108,11 @@
       <item value="While responding to a user query, always consider if the context section referenced in your answer is directly followed by a pertinent image." />
       <item value="Furthermore, the image references mentioned within these instructions should be disregarded." />
       <item value="Please note, you are not required to generate this string; fabricating image references may result in images that cannot be correctly displayed." />
-      <item value="The context may contain image references that are intended to illuminate the relevant content." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="281" />
-        <entry key="ENGLISH" value="284" />
+        <entry key="CHINESE" value="282" />
+        <entry key="ENGLISH" value="285" />
       </map>
     </option>
   </component>
