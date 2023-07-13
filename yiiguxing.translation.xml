@@ -58,6 +58,9 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Calculate num tokens for gpt-3.5-turbo and gpt-4 with tiktoken package. Official documentation: https:github.comopenaiopenai-cookbookblob mainexamplesHow_to_format_inputs_to_ChatGPT_models.ipynb" />
+      <item value="Number of chat completions to generate for each prompt.&quot;" />
+      <item value="Pass a sequence of prompts to the model and return model generations. This method should make use of batched calls for models that expose a batched API. Use this method when you want to: 1. take advantage of batched calls, 2. need more output from the model than just the top generated value, 3. are building chains that are agnostic to the underlying language model type (e.g., pure text completion models vs chat models). Args: prompts: List of PromptValues. A PromptValue is an object that can be converted to match the format of any language model (string for pure text generation models and BaseMessages for chat models). stop: Stop words to use when generating. Model output is cut off at the first occurrence of any of these substrings. callbacks: Callbacks to pass through. Used for executing additional functionality, such as logging or streaming, throughout generation. kwargs: Arbitrary additional keyword arguments. These are usually passed to the model provider API call. Returns: An LLMResult, which contains a list of candidate Generations for each input prompt and additional model provider-specific output." />
       <item value="We hope to increase the number of inputs per request soon" />
       <item value="It is possible to do more validation of the headers, but a request could always be made to the API manually with invalid headers, so we need to handle them server side." />
       <item value="Wait 2^x 1 second between each retry starting with 4 seconds, then up to 10 seconds, then 10 seconds afterwards" />
@@ -105,14 +108,11 @@
       <item value="Take note that in the context, images are represented in the format ![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-32456593demo}. Here, 'img_v2_6ecf4367-a6ab-4b11-bfc5-32456593demo' is a unique identifier for a particular image. These image references are included to further explain the text that directly precedes them. It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text." />
       <item value="Here, 'img_v2_6ecf4367-a6ab-4b11-bfc5-32456593demo' is a unique identifier for a particular image. These image references are included to further explain the text that directly precedes them. It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text." />
       <item value="In contrast, avoid creating image references that do not exist in the context." />
-      <item value="If this is the case, ensure these corresponding images are incorporated in your answer, placed right after the relevant text portion. If an image reference is present in the original text, such as '![image]{origin_random_string}', you should return it intact to ensure you preserve the integrity of the original image references." />
-      <item value="While responding to a user query, always consider if the context section referenced in your answer is directly followed by a pertinent image." />
-      <item value="Furthermore, the image references mentioned within these instructions should be disregarded." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="283" />
-        <entry key="ENGLISH" value="286" />
+        <entry key="CHINESE" value="286" />
+        <entry key="ENGLISH" value="289" />
       </map>
     </option>
   </component>
