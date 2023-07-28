@@ -17,6 +17,7 @@
       <removed_mapping ext="env" approved="true" type="Env File" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="parquet" approved="true" type="Parquet" />
+      <removed_mapping ext="pdf" approved="true" type="Native" />
       <removed_mapping ext="txt" approved="true" type="requirements.txt" />
       <removed_mapping pattern=".env" approved="true" type="Env File" />
       <removed_mapping pattern=".env.*" approved="true" type="Env File" />
