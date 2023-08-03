@@ -58,6 +58,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="This can be used by a caller to determine whether passing in a list of documents would exceed a certain prompt length. This useful when trying to ensure that the size of a prompt remains below a certain context limit." />
       <item value="Return the prompt length given the documents passed in. This can be used by a caller to determine whether passing in a list of documents would exceed a certain prompt length. This useful when trying to ensure that the size of a prompt remains below a certain context limit." />
       <item value="If the chain expects multiple inputs, they can be passed in directly as keyword arguments." />
       <item value="If the chain expects a single input, it can be passed in as the sole positional argument." />
@@ -107,12 +108,11 @@
       <item value="overlook" />
       <item value="mandatory" />
       <item value="overlook the image references within these specific instructions," />
-      <item value="It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text. Remember not to fabricate these image identifiers or the encapsulating format '![image]{...}'. Also, overlook the image references within these specific instructions, implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245659ddemo}' in your responses. Nevertheless, if the section of context your answer refers to contains image data, it's mandatory to include it, ensuring a logical correlation with the respective text." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="300" />
-        <entry key="ENGLISH" value="303" />
+        <entry key="CHINESE" value="301" />
+        <entry key="ENGLISH" value="304" />
       </map>
     </option>
   </component>
