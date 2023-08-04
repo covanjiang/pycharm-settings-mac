@@ -36,6 +36,7 @@
         <option value="libs.emums.MediaPlatform.*" />
         <option value="super.*" />
         <option value="fastapi.applications.FastAPI.*" />
+        <option value="period" />
       </list>
     </option>
   </inspection_tool>

@@ -58,6 +58,9 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="chance" />
+      <item value="request" />
+      <item value="acquire" />
       <item value="This can be used by a caller to determine whether passing in a list of documents would exceed a certain prompt length. This useful when trying to ensure that the size of a prompt remains below a certain context limit." />
       <item value="Return the prompt length given the documents passed in. This can be used by a caller to determine whether passing in a list of documents would exceed a certain prompt length. This useful when trying to ensure that the size of a prompt remains below a certain context limit." />
       <item value="If the chain expects multiple inputs, they can be passed in directly as keyword arguments." />
@@ -105,14 +108,11 @@
       <item value="implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}' &quot; &quot;in your responses." />
       <item value="implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}'" />
       <item value="overlook the image references within these specific instructions" />
-      <item value="overlook" />
-      <item value="mandatory" />
-      <item value="overlook the image references within these specific instructions," />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="301" />
-        <entry key="ENGLISH" value="304" />
+        <entry key="CHINESE" value="303" />
+        <entry key="ENGLISH" value="306" />
       </map>
     </option>
   </component>
