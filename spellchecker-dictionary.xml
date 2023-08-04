@@ -21,7 +21,11 @@
       <w>sessionmaker</w>
       <w>tablename</w>
       <w>tiao</w>
+      <w>tonumber</w>
       <w>unpad</w>
+      <w>zadd</w>
+      <w>zcard</w>
+      <w>zremrangebyscore</w>
     </words>
   </component>
 </application>
