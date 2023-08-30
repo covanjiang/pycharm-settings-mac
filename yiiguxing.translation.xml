@@ -51,13 +51,14 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1690962062519" />
+    <option name="lastTrimTime" value="1693392426206" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogX" value="912" />
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="``blocking`` indicates whether calling ``acquire`` should block until the lock has been acquired or to fail immediately, causing ``acquire`` to return False and the lock not being acquired. Defaults to True. Note this value can be overridden by passing a ``blocking`` argument to ``acquire``." />
       <item value="chance" />
       <item value="request" />
       <item value="acquire" />
@@ -107,12 +108,11 @@
       <item value="Remember not to fabricate these image identifiers &quot; &quot;or the encapsulating format '![image]{...}'." />
       <item value="implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}' &quot; &quot;in your responses." />
       <item value="implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}'" />
-      <item value="overlook the image references within these specific instructions" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="303" />
-        <entry key="ENGLISH" value="306" />
+        <entry key="CHINESE" value="304" />
+        <entry key="ENGLISH" value="307" />
       </map>
     </option>
   </component>
