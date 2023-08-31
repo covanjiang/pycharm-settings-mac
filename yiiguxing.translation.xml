@@ -58,6 +58,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="this field is required and must take it's default value" />
       <item value="equivalent" />
       <item value="``blocking`` indicates whether calling ``acquire`` should block until the lock has been acquired or to fail immediately, causing ``acquire`` to return False and the lock not being acquired. Defaults to True. Note this value can be overridden by passing a ``blocking`` argument to ``acquire``." />
       <item value="chance" />
@@ -107,12 +108,11 @@
       <item value="It is crucial to recognize and handle these references appropriately, &quot; &quot;ensuring their inclusion in your responses where relevant, &quot; &quot;and accurately relating them to the preceding text." />
       <item value="If the section of context your answer refers to contains image data, &quot; &quot;it's mandatory to include it, ensuring a logical correlation with the respective text." />
       <item value="Remember not to fabricate these image identifiers &quot; &quot;or the encapsulating format '![image]{...}'." />
-      <item value="implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}' &quot; &quot;in your responses." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="305" />
-        <entry key="ENGLISH" value="308" />
+        <entry key="CHINESE" value="306" />
+        <entry key="ENGLISH" value="309" />
       </map>
     </option>
   </component>
