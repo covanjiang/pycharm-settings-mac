@@ -58,6 +58,16 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="To make a simple app, use HTMLBulma CSSJS. First, plan. Think deeply about the functionality, what the JS will need to do, and how it will need to work with the HTML. Then, all in one `html` code block (DO NOT `run_code` more than once, and NEVER use placeholders like &quot; Javascript code here&quot; -- you're going to write the HTMLJS in one `run_code` function call): Put Bulma CSS and anything else you need in &lt;head&gt;, write the &lt;body&gt; of the app (add lots of padding on the body with Bulma), write the JS into the &lt;script&gt; tag. You probably want to center the app in a box with a border and make sure the body fills up the whole height of the page! Write LOTS of &lt;!--comments--&gt; throughout the HTML and Javascript to the user knows what's going on, and use whitespaceindentation properly. This will automatically open the HTML file simple app on the user's machine." />
+      <item value="Open Procedures is an open-source database of tiny, up-to-date coding tutorials." />
+      <item value="We can query it semantically and append relevant tutorialsprocedures to our system message" />
+      <item value="Yields tokens, but also adds them to interpreter.messages. TBH probably would be good to seperate those two responsibilities someday soon Responds until it decides not to run any more code or say anything else." />
+      <item value="In the event we get code -&gt; output -&gt; code again" />
+      <item value="We'll use this to determine if we should render a new code block," />
+      <item value="Track if we've ran a code block." />
+      <item value="Quite different from the plain generator stuff. So redirect to that" />
+      <item value="wraps the vanilla .chat(display=False) generator in a display." />
+      <item value="Sometimes a little more code -&gt; a much better experience! Display mode actually runs interpreter.chat(display=False, stream=True) from within the terminal_interface. wraps the vanilla .chat(display=False) generator in a display. Quite different from the plain generator stuff. So redirect to that" />
       <item value="Display markdown message. Works with multiline strings with lots of indentation. Will automatically make single line &gt; tags beautiful." />
       <item value="Interactivley prompt the user for required LLM settings" />
       <item value="Idempotency" />
@@ -98,21 +108,11 @@
       <item value="Finally, connect your answers using the corresponding image references" />
       <item value="Then, answer the questions based on each section." />
       <item value="first split the context into sections according to these image references." />
-      <item value="It's crucial to place the image reference accurately in your response. The image reference must be inserted right after the sentence or paragraph that describes or refers to the content of the image." />
-      <item value="Every time you respond to a user's question, you should ask yourself whether there are image references related to the context you are referencing in your response. If there are, include these image references at the correct position in your response to enhance its accuracy and reliability." />
-      <item value="Each time you respond to a user's question, always ask yourself: Is there a related image reference in the context? If there is, you must include the corresponding image reference in your response, and the image reference should directly follow its related content." />
-      <item value="Adhere to the following rules when handling these references" />
-      <item value="which are used to further elucidate the context they immediately follow" />
-      <item value="These references, used to elaborate on the text immediately preceding them" />
-      <item value="In the context, images are denoted using the format ![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo}, where 'img_v2_6ecf4367-a6ab-4b11-bfc5-3245653demo' is a unique identifier for an image. These references, used to elaborate on the text immediately preceding them, should be handled as follows:" />
-      <item value="Also, overlook the image references within these specific instructions, implying not to include '![image]{img_v2_6ecf4367-a6ab-4b11-bfc5-3245659ddemo}' in your responses. Nevertheless, if the section of context your answer refers to contains image data, it's mandatory to include it, ensuring a logical correlation with the respective text." />
-      <item value="Remember not to fabricate these image identifiers or the encapsulating format '![image]{...}'." />
-      <item value="It is crucial to recognize and handle these references appropriately, ensuring their inclusion in your responses where relevant, and accurately relating them to the preceding text." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="308" />
-        <entry key="ENGLISH" value="311" />
+        <entry key="CHINESE" value="319" />
+        <entry key="ENGLISH" value="322" />
       </map>
     </option>
   </component>
