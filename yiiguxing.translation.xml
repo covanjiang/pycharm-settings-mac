@@ -63,6 +63,12 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="A list of functions can be defined, each containing the name of the function, an optional description, and the parameters the function accepts (described as a JSON schema).&#10;" />
+      <item value=" Functions&#10;&#10;With setup and authentication complete, you can now use functions with the Azure OpenAI service. This will be split into a few steps:&#10;&#10;1. Define the function(s)&#10;2. Pass function definition(s) into chat completions API&#10;3. Call function with arguments from the response&#10;4. Feed function response back into chat completions API" />
+      <item value="A token is valid for a period of time, after which it will expire. To ensure a valid token is sent with every request, you can refresh an expiring token by hooking into requests.auth:&#10;" />
+      <item value=" In this example, we configured the library to use the Azure API by setting the variables in code. For development, consider setting the environment variables instead:" />
+      <item value="To set up the OpenAI SDK to use an Azure API Key, we need to set up the `api_type` to `azure` and set `api_key` to a key associated with your endpoint (you can find this key in &quot;Keys and Endpoints&quot; under &quot;Resource Management&quot; in the [Azure Portal](https:portal.azure.com))&#10;" />
+      <item value="The Azure OpenAI service supports multiple authentication mechanisms that include API keys and Azure credentials.&#10;" />
       <item value="If you want to use Microsoft Active Directory" />
       <item value="Once the resource is created, the first thing we need to use is its endpoint. You can get the endpoint by looking at the &quot;Keys and Endpoints&quot; section under the &quot;Resource Management&quot; section. Having this, we will set up the SDK using this information:" />
       <item value="Additionally, to properly access the Azure OpenAI Service, we need to create the proper resources at the [Azure Portal](https:portal.azure.com) (you can check a detailed guide on how to do this in the [Microsoft Docs]" />
@@ -107,17 +113,11 @@
       <item value="Whether or not run in verbose mode. In verbose mode, some intermediate logs will be printed to the console. Defaults to `langchain.verbose` value." />
       <item value="Optional list of callback handlers (or callback manager). Defaults to None. Callback handlers are called throughout the lifecycle of a call to a chain, starting with on_chain_start, ending with on_chain_end or on_chain_error. Each custom chain can optionally call additional callback methods, see Callback docs for full details." />
       <item value="Optional memory object. Defaults to None. Memory is a class that gets called at the start and at the end of every chain. At the start, memory loads variables and passes them along in the chain. At the end, it saves any returned variables. There are many different types of memory - please see memory docs for the full catalog." />
-      <item value="Abstract base class for creating structured sequences of calls to components. Chains should be used to encode a sequence of calls to components like models, document retrievers, other chains, etc., and provide a simple interface to this sequence. The Chain interface makes it easy to create apps that are: - Stateful: add Memory to any Chain to give it state, - Observable: pass Callbacks to a Chain to execute additional functionality, like logging, outside the main sequence of component calls, - Composable: the Chain API is flexible enough that it is easy to combine Chains with other components, including other Chains. The main methods exposed by chains are: - `__call__`: Chains are callable. The `__call__` method is the primary way to execute a Chain. This takes inputs as a dictionary and returns a dictionary output. - `run`: A convenience method that takes inputs as argskwargs and returns the output as a string. This method can only be used for a subset of chains and cannot return as rich of an output as `__call__`." />
-      <item value="Calculate num tokens for gpt-3.5-turbo and gpt-4 with tiktoken package. Official documentation: https:github.comopenaiopenai-cookbookblob mainexamplesHow_to_format_inputs_to_ChatGPT_models.ipynb" />
-      <item value="Number of chat completions to generate for each prompt.&quot;" />
-      <item value="Pass a sequence of prompts to the model and return model generations. This method should make use of batched calls for models that expose a batched API. Use this method when you want to: 1. take advantage of batched calls, 2. need more output from the model than just the top generated value, 3. are building chains that are agnostic to the underlying language model type (e.g., pure text completion models vs chat models). Args: prompts: List of PromptValues. A PromptValue is an object that can be converted to match the format of any language model (string for pure text generation models and BaseMessages for chat models). stop: Stop words to use when generating. Model output is cut off at the first occurrence of any of these substrings. callbacks: Callbacks to pass through. Used for executing additional functionality, such as logging or streaming, throughout generation. kwargs: Arbitrary additional keyword arguments. These are usually passed to the model provider API call. Returns: An LLMResult, which contains a list of candidate Generations for each input prompt and additional model provider-specific output." />
-      <item value="We hope to increase the number of inputs per request soon" />
-      <item value="It is possible to do more validation of the headers, but a request could always be made to the API manually with invalid headers, so we need to handle them server side." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="333" />
-        <entry key="ENGLISH" value="336" />
+        <entry key="CHINESE" value="339" />
+        <entry key="ENGLISH" value="342" />
       </map>
     </option>
   </component>
