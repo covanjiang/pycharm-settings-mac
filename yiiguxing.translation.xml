@@ -51,13 +51,23 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1696074288336" />
+    <option name="lastTrimTime" value="1706514705141" />
+  </component>
+  <component name="Translation.Settings">
+    <option name="keepFormat" value="true" />
+    <option name="primaryLanguage" value="CHINESE" />
+    <option name="translator" value="GOOGLE" />
   </component>
   <component name="Translation.States">
     <option name="newTranslationDialogX" value="912" />
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="If you want to use Microsoft Active Directory" />
+      <item value="Once the resource is created, the first thing we need to use is its endpoint. You can get the endpoint by looking at the &quot;Keys and Endpoints&quot; section under the &quot;Resource Management&quot; section. Having this, we will set up the SDK using this information:" />
+      <item value="Additionally, to properly access the Azure OpenAI Service, we need to create the proper resources at the [Azure Portal](https:portal.azure.com) (you can check a detailed guide on how to do this in the [Microsoft Docs]" />
+      <item value="Functions allow a caller of chat completions to define capabilities that the model can use to extend its&#10;functionality into external tools and data sources." />
+      <item value="caller" />
       <item value="Please perform the calculation 270737397 then reply with just the integer answer with no commas or anything, nothing else" />
       <item value="Hi, can you test out a bunch of markdown features? Try writing a fenced code block, a table, headers, everything. DO NOT write the markdown inside a markdown code block, just write it raw." />
       <item value="Can you write a single block of code and run_code it that prints something, then delays 1 second, then prints something else? No talk just code. Thanks!" />
@@ -103,16 +113,11 @@
       <item value="Pass a sequence of prompts to the model and return model generations. This method should make use of batched calls for models that expose a batched API. Use this method when you want to: 1. take advantage of batched calls, 2. need more output from the model than just the top generated value, 3. are building chains that are agnostic to the underlying language model type (e.g., pure text completion models vs chat models). Args: prompts: List of PromptValues. A PromptValue is an object that can be converted to match the format of any language model (string for pure text generation models and BaseMessages for chat models). stop: Stop words to use when generating. Model output is cut off at the first occurrence of any of these substrings. callbacks: Callbacks to pass through. Used for executing additional functionality, such as logging or streaming, throughout generation. kwargs: Arbitrary additional keyword arguments. These are usually passed to the model provider API call. Returns: An LLMResult, which contains a list of candidate Generations for each input prompt and additional model provider-specific output." />
       <item value="We hope to increase the number of inputs per request soon" />
       <item value="It is possible to do more validation of the headers, but a request could always be made to the API manually with invalid headers, so we need to handle them server side." />
-      <item value="Wait 2^x 1 second between each retry starting with 4 seconds, then up to 10 seconds, then 10 seconds afterwards" />
-      <item value="Encodes a string into tokens. Special tokens are artificial tokens used to unlock capabilities from a model, such as fill-in-the-middle. So we want to be careful about accidentally encoding special tokens, since they can be used to trick a model into doing something we don't want it to do. Hence, by default, encode will raise an error if it encounters text that corresponds to a special token. This can be controlled on a per-token level using the `allowed_special` and `disallowed_special` parameters. In particular: - Setting `disallowed_special` to () will prevent this function from raising errors and cause all text corresponding to special tokens to be encoded as natural text. - Setting `allowed_special` to &quot;all&quot; will cause this function to treat all text corresponding to special tokens to be encoded as special tokens." />
-      <item value="Check if the model matches a known prefix Prefix matching avoids needing library updates for every model version release Note that this can match on non-existent models (e.g., gpt-3.5-turbo-FAKE)" />
-      <item value="The model name to pass to tiktoken when using this class. Tiktoken is used to count the number of tokens in documents to constrain them to be under a certain limit. By default, when set to None, this will be the same as the embedding model name. However, there are some cases where you may want to use this Embedding class with a model name not supported by tiktoken. This can include when using Azure embeddings or when using one of the many model providers that expose an OpenAI-like API but with different models. In those cases, in order to avoid erroring when tiktoken is called, you can specify a model name to use here." />
-      <item value="&quot;3. When referencing the context to answer a question, &quot; &quot;if there are image references in the context, &quot; &quot;first divide the context into several sections based on these images. &quot; &quot;Then, respond to the question according to each section, &quot; &quot;and use the corresponding image references to &quot; &quot;connect the answers together to form a complete response to the question. \n&quot;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="328" />
-        <entry key="ENGLISH" value="331" />
+        <entry key="CHINESE" value="333" />
+        <entry key="ENGLISH" value="336" />
       </map>
     </option>
   </component>
