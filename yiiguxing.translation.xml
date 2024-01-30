@@ -63,6 +63,14 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&quot;A unit of work that can be invoked, batched, streamed, transformed and composed." />
+      <item value="Function for dynamically constructing the end of the chain based on the model-selected tool." />
+      <item value="Function for dynamically constructing the end of the chain based on the model-selected tool.&quot;&quot;&quot;" />
+      <item value="Alternatively, can provide both synd and sync implementations" />
+      <item value="RunnableLambda can be composed as any other Runnable and provides&#10;    seamless integration with LangChain tracing." />
+      <item value="Wrapping a callable in a RunnableLambda makes the callable usable&#10;    within either a sync or async context." />
+      <item value="seamless" />
+      <item value="composed" />
       <item value="In this example, we configured the library to use the Azure API by setting the variables in code. For development, consider setting the environment variables instead:" />
       <item value="messages = [&#10;    {&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;Don't make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous.&quot;},&#10;    {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;What's the weather like today in Seattle?&quot;}&#10;]&#10;&#10;chat_completion = openai.ChatCompletion.create(&#10;    deployment_id=&quot;gpt-4&quot;,&#10;    messages=messages,&#10;    functions=functions,&#10;)&#10;print(chat_completion)" />
       <item value="What's the weather like today in Seattle?" />
@@ -105,19 +113,11 @@
       <item value="chance" />
       <item value="request" />
       <item value="acquire" />
-      <item value="This can be used by a caller to determine whether passing in a list of documents would exceed a certain prompt length. This useful when trying to ensure that the size of a prompt remains below a certain context limit." />
-      <item value="Return the prompt length given the documents passed in. This can be used by a caller to determine whether passing in a list of documents would exceed a certain prompt length. This useful when trying to ensure that the size of a prompt remains below a certain context limit." />
-      <item value="If the chain expects multiple inputs, they can be passed in directly as keyword arguments." />
-      <item value="If the chain expects a single input, it can be passed in as the sole positional argument." />
-      <item value="Return docs most similar to query." />
-      <item value="Timeout for requests to OpenAI completion API. Default is 600 seconds." />
-      <item value="Chain that combines documents by stuffing into context. This chain takes a list of documents and first combines them into a single string. It does this by formatting each document into a string with the `document_prompt` and then joining them together with `document_separator`. It then adds that new string to the inputs with the variable name set by `document_variable_name`. Those inputs are then passed to the `llm_chain`." />
-      <item value="Chain to use to combine the documents." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="342" />
-        <entry key="ENGLISH" value="345" />
+        <entry key="CHINESE" value="349" />
+        <entry key="ENGLISH" value="352" />
       </map>
     </option>
   </component>
