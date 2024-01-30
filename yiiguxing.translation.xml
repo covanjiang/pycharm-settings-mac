@@ -63,6 +63,15 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="    Search for a coupon on a given keyword. This function operates by taking a user-provided keyword to conduct a search by the keyword. If a relevant coupon is found, the function returns details about it. This might include the discount rate, the validity period of the coupon, and the specific products it applies to.&#10;" />
+      <item value="    Search for a coupon on JD.com based on a given keyword. This function operates by taking a user-provided keyword to conduct a search on JD.com for a coupon associated with the product indicated by the keyword. If a relevant coupon is found, the function returns details about it. This might include the discount rate, the validity period of the coupon, and the specific products it applies to.&#10;" />
+      <item value="    Search for a coupon on Taobao based on a given keyword. This function takes a keyword as input and performs a search on the Taobao platform to find a coupon related to the product specified by the keyword. It returns information about the coupon if one is found. This can include details like the coupon amount, validity, and applicable products.&#10;" />
+      <item value="    Search for a coupon on Taobao (淘宝) based on a given keyword. This function takes a keyword as input and performs a search on the Taobao platform to find a coupon related to the product specified by the keyword. It returns information about the coupon if one is found. This can include details like the coupon amount, validity, and applicable products.&#10;" />
+      <item value="This function takes a keyword as input and performs a search on the Taobao platform&#10;    to find a coupon related to the product specified by the keyword. It returns information&#10;    about the coupon if one is found. This can include details like the coupon amount,&#10;    validity, and applicable products." />
+      <item value="A string containing the coupon information if a coupon is found. The format of this&#10;         string will depend on the specific implementation, but it might include details like&#10;         coupon value, expiry date, and applicable products." />
+      <item value="Search for a coupon on Taobao (淘宝) based on a given keyword.&#10;&#10;    This function takes a keyword as input and performs a search on the Taobao platform&#10;    to find a coupon related to the product specified by the keyword. It returns information&#10;    about the coupon if one is found. This can include details like the coupon amount,&#10;    validity, and applicable products.&#10;&#10;    Parameters:&#10;    keyword (str): The keyword used to search for the product on Taobao. This is typically&#10;                   the product name or a related term.&#10;&#10;    Returns:&#10;    str: A string containing the coupon information if a coupon is found. The format of this&#10;         string will depend on the specific implementation, but it might include details like&#10;         coupon value, expiry date, and applicable products." />
+      <item value="Search for a coupon for a product on Taobao based on the provided keyword.&#10;&#10;    This function takes a keyword as input and searches for a matching product name on Taobao, a popular Chinese e-commerce platform. It then attempts to find a coupon related to the identified product. The function is designed to help users find discounts and save money on their purchases.&#10;&#10;    Parameters:&#10;    keyword (str): A string representing the keyword used to search for the product. This could be the name of the product, a category, or any related term.&#10;&#10;    Returns:&#10;    int: The function returns an integer value. The exact meaning of this value is not specified in the function definition, but it could represent the amount of discount, a coupon code, or a status indicator (e.g., 0 for no coupon found, 1 for coupon found).&#10;&#10;    Note:&#10;    The actual implementation details, such as how the search is conducted or how the coupons are retrieved, are not provided in this definition. This function serves as an interface or a placeholder for the actual logic.&#10;    " />
+      <item value="coupon" />
       <item value="&quot;A unit of work that can be invoked, batched, streamed, transformed and composed." />
       <item value="Function for dynamically constructing the end of the chain based on the model-selected tool." />
       <item value="Function for dynamically constructing the end of the chain based on the model-selected tool.&quot;&quot;&quot;" />
@@ -104,20 +113,11 @@
       <item value="Quite different from the plain generator stuff. So redirect to that" />
       <item value="wraps the vanilla .chat(display=False) generator in a display." />
       <item value="Sometimes a little more code -&gt; a much better experience! Display mode actually runs interpreter.chat(display=False, stream=True) from within the terminal_interface. wraps the vanilla .chat(display=False) generator in a display. Quite different from the plain generator stuff. So redirect to that" />
-      <item value="Display markdown message. Works with multiline strings with lots of indentation. Will automatically make single line &gt; tags beautiful." />
-      <item value="Interactivley prompt the user for required LLM settings" />
-      <item value="Idempotency" />
-      <item value="this field is required and must take it's default value" />
-      <item value="equivalent" />
-      <item value="``blocking`` indicates whether calling ``acquire`` should block until the lock has been acquired or to fail immediately, causing ``acquire`` to return False and the lock not being acquired. Defaults to True. Note this value can be overridden by passing a ``blocking`` argument to ``acquire``." />
-      <item value="chance" />
-      <item value="request" />
-      <item value="acquire" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="349" />
-        <entry key="ENGLISH" value="352" />
+        <entry key="CHINESE" value="356" />
+        <entry key="ENGLISH" value="361" />
       </map>
     </option>
   </component>
