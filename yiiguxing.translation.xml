@@ -63,6 +63,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="In this example, we configured the library to use the Azure API by setting the variables in code. For development, consider setting the environment variables instead:" />
       <item value="messages = [&#10;    {&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;Don't make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous.&quot;},&#10;    {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;What's the weather like today in Seattle?&quot;}&#10;]&#10;&#10;chat_completion = openai.ChatCompletion.create(&#10;    deployment_id=&quot;gpt-4&quot;,&#10;    messages=messages,&#10;    functions=functions,&#10;)&#10;print(chat_completion)" />
       <item value="What's the weather like today in Seattle?" />
       <item value="hat's the weather like today in Seattle?" />
@@ -112,12 +113,11 @@
       <item value="Timeout for requests to OpenAI completion API. Default is 600 seconds." />
       <item value="Chain that combines documents by stuffing into context. This chain takes a list of documents and first combines them into a single string. It does this by formatting each document into a string with the `document_prompt` and then joining them together with `document_separator`. It then adds that new string to the inputs with the variable name set by `document_variable_name`. Those inputs are then passed to the `llm_chain`." />
       <item value="Chain to use to combine the documents." />
-      <item value="Optional metadata associated with the chain. Defaults to None This metadata will be associated with each call to this chain, and passed as arguments to the handlers defined in `callbacks`. You can use these to eg identify a specific instance of a chain with its use case." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="341" />
-        <entry key="ENGLISH" value="344" />
+        <entry key="CHINESE" value="342" />
+        <entry key="ENGLISH" value="345" />
       </map>
     </option>
   </component>
