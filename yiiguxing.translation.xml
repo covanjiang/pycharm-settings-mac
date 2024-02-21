@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1706514705141" />
+    <option name="lastTrimTime" value="1708497842691" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -63,6 +63,12 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="The function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases" />
+      <item value="This parameter should only be provided if the user has a specific price range in mind. The function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases" />
+      <item value=" An optional price range can be specified to filter the products by their price." />
+      <item value="It now includes an optional parameter &quot;price range&quot;, allowing users to specify the price range of the products they wish to search" />
+      <item value="Searches for coupons on Taobao for products related to the specified keyword." />
+      <item value="This function searches for coupons on Taobao for products related to the keyword provided by the user" />
       <item value="    Search for a coupon on a given keyword. This function operates by taking a user-provided keyword to conduct a search by the keyword. If a relevant coupon is found, the function returns details about it. This might include the discount rate, the validity period of the coupon, and the specific products it applies to.&#10;" />
       <item value="    Search for a coupon on JD.com based on a given keyword. This function operates by taking a user-provided keyword to conduct a search on JD.com for a coupon associated with the product indicated by the keyword. If a relevant coupon is found, the function returns details about it. This might include the discount rate, the validity period of the coupon, and the specific products it applies to.&#10;" />
       <item value="    Search for a coupon on Taobao based on a given keyword. This function takes a keyword as input and performs a search on the Taobao platform to find a coupon related to the product specified by the keyword. It returns information about the coupon if one is found. This can include details like the coupon amount, validity, and applicable products.&#10;" />
@@ -107,17 +113,11 @@
       <item value="Open Procedures is an open-source database of tiny, up-to-date coding tutorials." />
       <item value="We can query it semantically and append relevant tutorialsprocedures to our system message" />
       <item value="Yields tokens, but also adds them to interpreter.messages. TBH probably would be good to seperate those two responsibilities someday soon Responds until it decides not to run any more code or say anything else." />
-      <item value="In the event we get code -&gt; output -&gt; code again" />
-      <item value="We'll use this to determine if we should render a new code block," />
-      <item value="Track if we've ran a code block." />
-      <item value="Quite different from the plain generator stuff. So redirect to that" />
-      <item value="wraps the vanilla .chat(display=False) generator in a display." />
-      <item value="Sometimes a little more code -&gt; a much better experience! Display mode actually runs interpreter.chat(display=False, stream=True) from within the terminal_interface. wraps the vanilla .chat(display=False) generator in a display. Quite different from the plain generator stuff. So redirect to that" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="356" />
-        <entry key="ENGLISH" value="361" />
+        <entry key="CHINESE" value="363" />
+        <entry key="ENGLISH" value="368" />
       </map>
     </option>
   </component>
