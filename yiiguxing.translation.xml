@@ -63,6 +63,8 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="These parameters should only be provided if the user has a specific price range in mind." />
+      <item value="Optional minimum and maximum price can be specified to filter the products by their price." />
       <item value="The function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases" />
       <item value="This parameter should only be provided if the user has a specific price range in mind. The function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases" />
       <item value=" An optional price range can be specified to filter the products by their price." />
@@ -111,13 +113,11 @@
       <item value="Add a new message from the assistant to interpreter's &quot;messages&quot; attribute" />
       <item value="To make a simple app, use HTMLBulma CSSJS. First, plan. Think deeply about the functionality, what the JS will need to do, and how it will need to work with the HTML. Then, all in one `html` code block (DO NOT `run_code` more than once, and NEVER use placeholders like &quot; Javascript code here&quot; -- you're going to write the HTMLJS in one `run_code` function call): Put Bulma CSS and anything else you need in &lt;head&gt;, write the &lt;body&gt; of the app (add lots of padding on the body with Bulma), write the JS into the &lt;script&gt; tag. You probably want to center the app in a box with a border and make sure the body fills up the whole height of the page! Write LOTS of &lt;!--comments--&gt; throughout the HTML and Javascript to the user knows what's going on, and use whitespaceindentation properly. This will automatically open the HTML file simple app on the user's machine." />
       <item value="Open Procedures is an open-source database of tiny, up-to-date coding tutorials." />
-      <item value="We can query it semantically and append relevant tutorialsprocedures to our system message" />
-      <item value="Yields tokens, but also adds them to interpreter.messages. TBH probably would be good to seperate those two responsibilities someday soon Responds until it decides not to run any more code or say anything else." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="363" />
-        <entry key="ENGLISH" value="368" />
+        <entry key="CHINESE" value="365" />
+        <entry key="ENGLISH" value="370" />
       </map>
     </option>
   </component>
