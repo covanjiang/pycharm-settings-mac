@@ -63,6 +63,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Provides an interface for calling the methods of the specified Bing Ads service." />
       <item value="Searches for products matching the keyword, with an emphasis on products offering coupons.&#10;    Allows filtering by price range, with an option to specify exact price by setting min_price and max_price to the same value." />
       <item value="Searches JD.com for products matching the keyword, with an emphasis on products offering coupons.&#10;    Allows filtering by price range, with an option to specify exact price by setting min_price and max_price to the same value." />
       <item value="    These parameters should only be provided if the user has a specific price range in mind.&#10;" />
@@ -112,12 +113,11 @@
       <item value="Additionally, to properly access the Azure OpenAI Service, we need to create the proper resources at the [Azure Portal](https:portal.azure.com) (you can check a detailed guide on how to do this in the [Microsoft Docs]" />
       <item value="Functions allow a caller of chat completions to define capabilities that the model can use to extend its&#10;functionality into external tools and data sources." />
       <item value="caller" />
-      <item value="Please perform the calculation 270737397 then reply with just the integer answer with no commas or anything, nothing else" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="376" />
-        <entry key="ENGLISH" value="381" />
+        <entry key="CHINESE" value="377" />
+        <entry key="ENGLISH" value="382" />
       </map>
     </option>
   </component>
