@@ -63,6 +63,8 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Searches for products matching the keyword, with an emphasis on products offering coupons.&#10;    Allows filtering by price range, with an option to specify exact price by setting min_price and max_price to the same value." />
+      <item value="Searches JD.com for products matching the keyword, with an emphasis on products offering coupons.&#10;    Allows filtering by price range, with an option to specify exact price by setting min_price and max_price to the same value." />
       <item value="    These parameters should only be provided if the user has a specific price range in mind.&#10;" />
       <item value="    Optional minimum and maximum prices can be specified to filter the products by their price.&#10;" />
       <item value="    This function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases.&#10;" />
@@ -111,13 +113,11 @@
       <item value="Functions allow a caller of chat completions to define capabilities that the model can use to extend its&#10;functionality into external tools and data sources." />
       <item value="caller" />
       <item value="Please perform the calculation 270737397 then reply with just the integer answer with no commas or anything, nothing else" />
-      <item value="Hi, can you test out a bunch of markdown features? Try writing a fenced code block, a table, headers, everything. DO NOT write the markdown inside a markdown code block, just write it raw." />
-      <item value="Can you write a single block of code and run_code it that prints something, then delays 1 second, then prints something else? No talk just code. Thanks!" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="374" />
-        <entry key="ENGLISH" value="379" />
+        <entry key="CHINESE" value="376" />
+        <entry key="ENGLISH" value="381" />
       </map>
     </option>
   </component>
