@@ -63,6 +63,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&quot;&quot;&quot; Represents an OAuth authorization object implementing the authorization code grant flow for use in a desktop&#10;    or mobile application.&#10;&#10;    You can use an instance of this class as the AuthorizationData.Authentication property&#10;    of an :class:`.AuthorizationData` object to authenticate with Bing Ads services.&#10;    In this case the AuthenticationToken request header will be set to the corresponding OAuthTokens.AccessToken value.&#10;&#10;    This class implements the authorization code grant flow for Managing User Authentication with OAuth&#10;    documented at http:go.microsoft.comfwlink?LinkID=511609. This is a standard OAuth 2.0 flow and is defined in detail in the&#10;    Authorization Code Grant section of the OAuth 2.0 spec at https:tools.ietf.orghtmlrfc6749section-4.1.&#10;    For more information about registering a Bing Ads application, see http:go.microsoft.comfwlink?LinkID=511607." />
       <item value="  Bing Ads Campaign Management service operations require that if you specify a non-primitive,&#10;     it must be one of the values defined by the service i.e. it cannot be a nil element.&#10;     Since SUDS requires non-primitives and Bing Ads won't accept nil elements in place of an enum value,&#10;     you must either set the non-primitives or they must be set to None. Also in case new properties are added&#10;     in a future service release, it is a good practice to set each element of the SUDS object to None as a baseline." />
       <item value="This returns the value unchanged.  To the type checker this&#10;    signals that the return value has the designated type, but at&#10;    runtime we intentionally don't check anything (we want this&#10;    to be as fast as possible)." />
       <item value="The message output by the chat model." />
@@ -112,12 +113,11 @@
       <item value="A token is valid for a period of time, after which it will expire. To ensure a valid token is sent with every request, you can refresh an expiring token by hooking into requests.auth:&#10;" />
       <item value=" In this example, we configured the library to use the Azure API by setting the variables in code. For development, consider setting the environment variables instead:" />
       <item value="To set up the OpenAI SDK to use an Azure API Key, we need to set up the `api_type` to `azure` and set `api_key` to a key associated with your endpoint (you can find this key in &quot;Keys and Endpoints&quot; under &quot;Resource Management&quot; in the [Azure Portal](https:portal.azure.com))&#10;" />
-      <item value="The Azure OpenAI service supports multiple authentication mechanisms that include API keys and Azure credentials.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="383" />
-        <entry key="ENGLISH" value="388" />
+        <entry key="CHINESE" value="384" />
+        <entry key="ENGLISH" value="389" />
       </map>
     </option>
   </component>
