@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1709883496083" />
+    <option name="lastTrimTime" value="1710410063385" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -63,6 +63,7 @@
     <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="The model name to pass to tiktoken when using this class. &#10;    Tiktoken is used to count the number of tokens in documents to constrain &#10;    them to be under a certain limit. By default, when set to None, this will &#10;    be the same as the embedding model name. However, there are some cases &#10;    where you may want to use this Embedding class with a model name not &#10;    supported by tiktoken. This can include when using Azure embeddings or &#10;    when using one of the many model providers that expose an OpenAI-like &#10;    API but with different models. In those cases, in order to avoid erroring &#10;    when tiktoken is called, you can specify a model name to use here." />
       <item value="vertical" />
       <item value="Fintech" />
       <item value="&quot;&quot;&quot; Represents an OAuth authorization object implementing the authorization code grant flow for use in a web application.&#10;&#10;    You can use an instance of this class as the AuthorizationData.Authentication property&#10;    of an :class:`.AuthorizationData` object to authenticate with Bing Ads services.&#10;    In this case the AuthenticationToken request header will be set to the corresponding OAuthTokens.AccessToken value.&#10;&#10;    This class implements the authorization code grant flow for Managing User Authentication with OAuth&#10;    documented at http:go.microsoft.comfwlink?LinkID=511609. This is a standard OAuth 2.0 flow and is defined in detail in the&#10;    Authorization Code Grant section of the OAuth 2.0 spec at https:tools.ietf.orghtmlrfc6749section-4.1.&#10;    For more information about registering a Bing Ads application, see http:go.microsoft.comfwlink?LinkID=511607." />
@@ -112,12 +113,11 @@
       <item value="hat's the weather like today in Seattle?" />
       <item value="Don't make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous." />
       <item value="A list of functions can be defined, each containing the name of the function, an optional description, and the parameters the function accepts (described as a JSON schema).&#10;" />
-      <item value=" Functions&#10;&#10;With setup and authentication complete, you can now use functions with the Azure OpenAI service. This will be split into a few steps:&#10;&#10;1. Define the function(s)&#10;2. Pass function definition(s) into chat completions API&#10;3. Call function with arguments from the response&#10;4. Feed function response back into chat completions API" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="387" />
-        <entry key="ENGLISH" value="392" />
+        <entry key="CHINESE" value="388" />
+        <entry key="ENGLISH" value="393" />
       </map>
     </option>
   </component>
