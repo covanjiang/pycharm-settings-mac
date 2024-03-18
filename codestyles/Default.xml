@@ -3,4 +3,7 @@
     <option name="SPACE_AROUND_EQ_IN_NAMED_PARAMETER" value="true" />
     <option name="SPACE_AROUND_EQ_IN_KEYWORD_ARGUMENT" value="true" />
   </Python>
+  <codeStyleSettings language="Python">
+    <option name="RIGHT_MARGIN" value="192" />
+  </codeStyleSettings>
 </code_scheme>
