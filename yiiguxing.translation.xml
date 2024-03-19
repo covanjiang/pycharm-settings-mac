@@ -59,10 +59,10 @@
     <option name="translator" value="GOOGLE" />
   </component>
   <component name="Translation.States">
-    <option name="newTranslationDialogX" value="912" />
-    <option name="newTranslationDialogY" value="452" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="scratchpad" />
+      <item value="Prompt template that assumes variable is already list of messages." />
       <item value="The model name to pass to tiktoken when using this class. &#10;    Tiktoken is used to count the number of tokens in documents to constrain &#10;    them to be under a certain limit. By default, when set to None, this will &#10;    be the same as the embedding model name. However, there are some cases &#10;    where you may want to use this Embedding class with a model name not &#10;    supported by tiktoken. This can include when using Azure embeddings or &#10;    when using one of the many model providers that expose an OpenAI-like &#10;    API but with different models. In those cases, in order to avoid erroring &#10;    when tiktoken is called, you can specify a model name to use here." />
       <item value="vertical" />
       <item value="Fintech" />
@@ -111,13 +111,11 @@
       <item value="messages = [&#10;    {&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;Don't make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous.&quot;},&#10;    {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;What's the weather like today in Seattle?&quot;}&#10;]&#10;&#10;chat_completion = openai.ChatCompletion.create(&#10;    deployment_id=&quot;gpt-4&quot;,&#10;    messages=messages,&#10;    functions=functions,&#10;)&#10;print(chat_completion)" />
       <item value="What's the weather like today in Seattle?" />
       <item value="hat's the weather like today in Seattle?" />
-      <item value="Don't make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous." />
-      <item value="A list of functions can be defined, each containing the name of the function, an optional description, and the parameters the function accepts (described as a JSON schema).&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="388" />
-        <entry key="ENGLISH" value="393" />
+        <entry key="CHINESE" value="390" />
+        <entry key="ENGLISH" value="395" />
       </map>
     </option>
   </component>
