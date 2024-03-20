@@ -61,6 +61,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="&quot;&quot;&quot;Runnable that manages chat message history for another Runnable.&#10;&#10;    A chat message history is a sequence of messages that represent a conversation.&#10;&#10;    RunnableWithMessageHistory wraps another Runnable and manages the chat message&#10;    history for it; it is responsible for reading and updating the chat message&#10;    history.&#10;&#10;    The formats supports for the inputs and outputs of the wrapped Runnable&#10;    are described below.&#10;&#10;    RunnableWithMessageHistory must always be called with a config that contains&#10;    the appropriate parameters for the chat message history factory.&#10;&#10;    By default the Runnable is expected to take a single configuration parameter&#10;    called `session_id` which is a string. This parameter is used to create a new&#10;    or look up an existing chat message history that matches the given session_id.&#10;&#10;    In this case, the invocation would look like this:&#10;&#10;    `with_history.invoke(..., config={&quot;configurable&quot;: {&quot;session_id&quot;: &quot;bar&quot;}})`&#10;    ; e.g., ``{&quot;configurable&quot;: {&quot;session_id&quot;: &quot;&lt;SESSION_ID&gt;&quot;}}``.&#10;&#10;    The configuration can be customized by passing in a list of&#10;    ``ConfigurableFieldSpec`` objects to the ``history_factory_config`` parameter (see&#10;    example below).&#10;&#10;    In the examples, we will use a chat message history with an in-memory&#10;    implementation to make it easy to experiment and see the results.&#10;&#10;    For production use cases, you will want to use a persistent implementation&#10;    of chat message history, such as ``RedisChatMessageHistory``.&#10;&#10;&#10;    Example: Chat message history with an in-memory implementation for testing." />
       <item value="input keys" />
       <item value="A single string input was passed in, but this chain expects &quot;&#10;                    f&quot;multiple inputs ({_input_keys}). When a chain expects &quot;&#10;                    f&quot;multiple inputs, please call it by passing in a dictionary, &quot;&#10;                    &quot;eg `chain({'foo': 1, 'bar': 2})`" />
       <item value="arbitrary" />
@@ -110,12 +111,11 @@
       <item value="Search for a coupon for a product on Taobao based on the provided keyword.&#10;&#10;    This function takes a keyword as input and searches for a matching product name on Taobao, a popular Chinese e-commerce platform. It then attempts to find a coupon related to the identified product. The function is designed to help users find discounts and save money on their purchases.&#10;&#10;    Parameters:&#10;    keyword (str): A string representing the keyword used to search for the product. This could be the name of the product, a category, or any related term.&#10;&#10;    Returns:&#10;    int: The function returns an integer value. The exact meaning of this value is not specified in the function definition, but it could represent the amount of discount, a coupon code, or a status indicator (e.g., 0 for no coupon found, 1 for coupon found).&#10;&#10;    Note:&#10;    The actual implementation details, such as how the search is conducted or how the coupons are retrieved, are not provided in this definition. This function serves as an interface or a placeholder for the actual logic.&#10;    " />
       <item value="coupon" />
       <item value="&quot;A unit of work that can be invoked, batched, streamed, transformed and composed." />
-      <item value="Function for dynamically constructing the end of the chain based on the model-selected tool." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="400" />
-        <entry key="ENGLISH" value="405" />
+        <entry key="CHINESE" value="401" />
+        <entry key="ENGLISH" value="406" />
       </map>
     </option>
   </component>
