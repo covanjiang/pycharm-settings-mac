@@ -16,6 +16,7 @@
       <w>duomeng</w>
       <w>f'postgresql</w>
       <w>kuaishou</w>
+      <w>lpush</w>
       <w>meng</w>
       <w>metadatas</w>
       <w>pricefrom</w>
@@ -25,6 +26,7 @@
       <w>realname</w>
       <w>redoc</w>
       <w>responce</w>
+      <w>rpush</w>
       <w>sessionmaker</w>
       <w>spuid</w>
       <w>tablename</w>
