@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1710410063385" />
+    <option name="lastTrimTime" value="1710906172978" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -61,6 +61,13 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value=" Memory refers to state in Chains. Memory can be used to store information about&#10;        past executions of a Chain and inject that information into the inputs of&#10;        future executions of the Chain. For example, for conversational Chains Memory&#10;        can be used to store conversations and automatically add them to future model&#10;        prompts so that the model has the necessary context to respond coherently to&#10;        the latest input.&#10;" />
+      <item value=" This means that the sub-class has implemented an efficient add_messages&#10;             method, so we should use it." />
+      <item value="   add_messages contains a default implementation that calls add_message&#10;    for each message in the sequence. This is provided for backwards compatibility&#10;    with existing implementations which only had add_message.&#10;&#10;    Async variants all have default implementations that call the sync variants.&#10;    Implementers can choose to over-ride the async implementations to provide&#10;    truly async implementations.&#10;&#10;    Usage guidelines:&#10;&#10;    When used for updating history, users should favor usage of `add_messages`&#10;    over `add_message` or other variants like `add_user_message` and `add_ai_message`&#10;    to avoid unnecessary round-trips to the underlying persistence layer.&#10;" />
+      <item value=" Implementations guidelines:&#10;&#10;    Implementations are expected to over-ride all or some of the following methods:&#10;&#10;     add_messages: sync variant for bulk addition of messages&#10;     aadd_messages: async variant for bulk addition of messages&#10;     messages: sync variant for getting messages&#10;     aget_messages: async variant for getting messages&#10;     clear: sync variant for clearing messages&#10;     aclear: async variant for clearing messages" />
+      <item value="Abstract base class for storing chat message history." />
+      <item value="The number of messages returned by Zep and when the Zep server summarizes chat&#10;    histories is configurable. See the Zep documentation for more details." />
+      <item value="Persist your chain history to the Zep MemoryStore." />
       <item value="scratchpad" />
       <item value="Prompt template that assumes variable is already list of messages." />
       <item value="The model name to pass to tiktoken when using this class. &#10;    Tiktoken is used to count the number of tokens in documents to constrain &#10;    them to be under a certain limit. By default, when set to None, this will &#10;    be the same as the embedding model name. However, there are some cases &#10;    where you may want to use this Embedding class with a model name not &#10;    supported by tiktoken. This can include when using Azure embeddings or &#10;    when using one of the many model providers that expose an OpenAI-like &#10;    API but with different models. In those cases, in order to avoid erroring &#10;    when tiktoken is called, you can specify a model name to use here." />
@@ -104,18 +111,11 @@
       <item value="Function for dynamically constructing the end of the chain based on the model-selected tool.&quot;&quot;&quot;" />
       <item value="Alternatively, can provide both synd and sync implementations" />
       <item value="RunnableLambda can be composed as any other Runnable and provides&#10;    seamless integration with LangChain tracing." />
-      <item value="Wrapping a callable in a RunnableLambda makes the callable usable&#10;    within either a sync or async context." />
-      <item value="seamless" />
-      <item value="composed" />
-      <item value="In this example, we configured the library to use the Azure API by setting the variables in code. For development, consider setting the environment variables instead:" />
-      <item value="messages = [&#10;    {&quot;role&quot;: &quot;system&quot;, &quot;content&quot;: &quot;Don't make assumptions about what values to plug into functions. Ask for clarification if a user request is ambiguous.&quot;},&#10;    {&quot;role&quot;: &quot;user&quot;, &quot;content&quot;: &quot;What's the weather like today in Seattle?&quot;}&#10;]&#10;&#10;chat_completion = openai.ChatCompletion.create(&#10;    deployment_id=&quot;gpt-4&quot;,&#10;    messages=messages,&#10;    functions=functions,&#10;)&#10;print(chat_completion)" />
-      <item value="What's the weather like today in Seattle?" />
-      <item value="hat's the weather like today in Seattle?" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="390" />
-        <entry key="ENGLISH" value="395" />
+        <entry key="CHINESE" value="397" />
+        <entry key="ENGLISH" value="402" />
       </map>
     </option>
   </component>
