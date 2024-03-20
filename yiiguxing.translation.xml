@@ -61,6 +61,8 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="input keys" />
+      <item value="A single string input was passed in, but this chain expects &quot;&#10;                    f&quot;multiple inputs ({_input_keys}). When a chain expects &quot;&#10;                    f&quot;multiple inputs, please call it by passing in a dictionary, &quot;&#10;                    &quot;eg `chain({'foo': 1, 'bar': 2})`" />
       <item value="arbitrary" />
       <item value=" Memory refers to state in Chains. Memory can be used to store information about&#10;        past executions of a Chain and inject that information into the inputs of&#10;        future executions of the Chain. For example, for conversational Chains Memory&#10;        can be used to store conversations and automatically add them to future model&#10;        prompts so that the model has the necessary context to respond coherently to&#10;        the latest input.&#10;" />
       <item value=" This means that the sub-class has implemented an efficient add_messages&#10;             method, so we should use it." />
@@ -109,13 +111,11 @@
       <item value="coupon" />
       <item value="&quot;A unit of work that can be invoked, batched, streamed, transformed and composed." />
       <item value="Function for dynamically constructing the end of the chain based on the model-selected tool." />
-      <item value="Function for dynamically constructing the end of the chain based on the model-selected tool.&quot;&quot;&quot;" />
-      <item value="Alternatively, can provide both synd and sync implementations" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="398" />
-        <entry key="ENGLISH" value="403" />
+        <entry key="CHINESE" value="400" />
+        <entry key="ENGLISH" value="405" />
       </map>
     </option>
   </component>
