@@ -61,8 +61,8 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
-      <item value="Allows filtering by price range, with an option to specify exact price by setting min_price and max_price to the same value." />
       <item value="Searches for products matching the keyword or item detail page link, with an emphasis on products offering coupons." />
+      <item value="Allows filtering by price range, with an option to specify exact price by setting min_price and max_price to the same value." />
       <item value="Categories help in narrowing down the search to a specific type of products." />
       <item value="on e-commerce platforms. If left empty, products from all categories will be considered." />
       <item value="Categories help in narrowing down the search to a specific type of products" />
@@ -114,8 +114,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="409" />
-        <entry key="ENGLISH" value="414" />
+        <entry key="CHINESE" value="410" />
+        <entry key="ENGLISH" value="415" />
       </map>
     </option>
   </component>
