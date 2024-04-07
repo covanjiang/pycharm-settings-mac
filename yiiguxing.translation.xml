@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1711355880483" />
+    <option name="lastTrimTime" value="1712460349549" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -61,6 +61,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="商品导购" />
       <item value="Searches for products matching the keyword or item detail page link, with an emphasis on products offering coupons." />
       <item value="Allows filtering by price range, with an option to specify exact price by setting min_price and max_price to the same value." />
       <item value="Categories help in narrowing down the search to a specific type of products." />
@@ -110,11 +111,10 @@
       <item value="Searches for coupons on Taobao for products related to the specified keyword." />
       <item value="This function searches for coupons on Taobao for products related to the keyword provided by the user" />
       <item value="    Search for a coupon on a given keyword. This function operates by taking a user-provided keyword to conduct a search by the keyword. If a relevant coupon is found, the function returns details about it. This might include the discount rate, the validity period of the coupon, and the specific products it applies to.&#10;" />
-      <item value="    Search for a coupon on JD.com based on a given keyword. This function operates by taking a user-provided keyword to conduct a search on JD.com for a coupon associated with the product indicated by the keyword. If a relevant coupon is found, the function returns details about it. This might include the discount rate, the validity period of the coupon, and the specific products it applies to.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="410" />
+        <entry key="CHINESE" value="411" />
         <entry key="ENGLISH" value="415" />
       </map>
     </option>
