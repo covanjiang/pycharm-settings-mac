@@ -61,6 +61,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Timeout for requests to OpenAI completion API. Can be float, httpx.Timeout or &#10;        None." />
       <item value="to support explicit proxy for OpenAI" />
       <item value="商品导购" />
       <item value="Searches for products matching the keyword or item detail page link, with an emphasis on products offering coupons." />
@@ -110,12 +111,11 @@
       <item value=" An optional price range can be specified to filter the products by their price." />
       <item value="It now includes an optional parameter &quot;price range&quot;, allowing users to specify the price range of the products they wish to search" />
       <item value="Searches for coupons on Taobao for products related to the specified keyword." />
-      <item value="This function searches for coupons on Taobao for products related to the keyword provided by the user" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="412" />
-        <entry key="ENGLISH" value="416" />
+        <entry key="CHINESE" value="413" />
+        <entry key="ENGLISH" value="417" />
       </map>
     </option>
   </component>
