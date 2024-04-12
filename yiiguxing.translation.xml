@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1712460349549" />
+    <option name="lastTrimTime" value="1712906713939" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -61,6 +61,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="search for shopping knowledge" />
       <item value="Timeout for requests to OpenAI completion API. Can be float, httpx.Timeout or &#10;        None." />
       <item value="to support explicit proxy for OpenAI" />
       <item value="商品导购" />
@@ -110,12 +111,11 @@
       <item value="This parameter should only be provided if the user has a specific price range in mind. The function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases" />
       <item value=" An optional price range can be specified to filter the products by their price." />
       <item value="It now includes an optional parameter &quot;price range&quot;, allowing users to specify the price range of the products they wish to search" />
-      <item value="Searches for coupons on Taobao for products related to the specified keyword." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="413" />
-        <entry key="ENGLISH" value="417" />
+        <entry key="CHINESE" value="414" />
+        <entry key="ENGLISH" value="418" />
       </map>
     </option>
   </component>
