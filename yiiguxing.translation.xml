@@ -61,6 +61,11 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="If True, Python zero-based indexes should be interpreted as one-based&#10;    on the SQL expression side." />
+      <item value="The above type represents an N-dimensional array,&#10;    meaning a supporting backend such as PostgreSQL will interpret values&#10;    with any number of dimensions automatically.   To produce an INSERT&#10;    construct that passes in a 1-dimensional array of integers::" />
+      <item value=":class:`_types.ARRAY` is part of the Core in support of various SQL&#10;    standard functions such as :class:`_functions.array_agg`&#10;    which explicitly involve&#10;    arrays; however, with the exception of the PostgreSQL backend and possibly&#10;    some third-party dialects, no other SQLAlchemy built-in dialect has support&#10;    for this type." />
+      <item value="This type serves as the basis for all ARRAY operations.&#10;       However, currently only the PostgreSQL backend has support for SQL&#10;       arrays in SQLAlchemy. It is recommended to use the PostgreSQL-specific&#10;       :class:`sqlalchemy.dialects.postgresql.ARRAY` type directly when using&#10;       ARRAY types with PostgreSQL, as it provides additional operators&#10;       specific to that backend." />
+      <item value="Represent a SQL Array type." />
       <item value="search for shopping knowledge" />
       <item value="Timeout for requests to OpenAI completion API. Can be float, httpx.Timeout or &#10;        None." />
       <item value="to support explicit proxy for OpenAI" />
@@ -106,16 +111,11 @@
       <item value="across ecommerce" />
       <item value="ecommerce" />
       <item value="These parameters should only be provided if the user has a specific price range in mind." />
-      <item value="Optional minimum and maximum price can be specified to filter the products by their price." />
-      <item value="The function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases" />
-      <item value="This parameter should only be provided if the user has a specific price range in mind. The function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases" />
-      <item value=" An optional price range can be specified to filter the products by their price." />
-      <item value="It now includes an optional parameter &quot;price range&quot;, allowing users to specify the price range of the products they wish to search" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="414" />
-        <entry key="ENGLISH" value="418" />
+        <entry key="CHINESE" value="419" />
+        <entry key="ENGLISH" value="423" />
       </map>
     </option>
   </component>
