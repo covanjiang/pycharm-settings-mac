@@ -61,6 +61,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Parses a message into agent actionsfinish.&#10;&#10;    Is meant to be used with OpenAI models, as it relies on the specific&#10;    tool_calls parameter from OpenAI to convey what tools to use.&#10;&#10;    If a tool_calls parameter is passed, then that is used to get&#10;    the tool names and tool inputs.&#10;&#10;    If one is not passed, then the AIMessage is assumed to be the final output." />
       <item value="EUCLIDEAN" />
       <item value="Enumerator of the Distance strategies." />
       <item value="If True, Python zero-based indexes should be interpreted as one-based&#10;    on the SQL expression side." />
@@ -110,12 +111,11 @@
       <item value="    Optional minimum and maximum prices can be specified to filter the products by their price.&#10;" />
       <item value="    This function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases.&#10;" />
       <item value="    Searches for product information related to the specified keyword across various e-commerce platforms, prioritizing products with available coupons.&#10;" />
-      <item value="across ecommerce" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="421" />
-        <entry key="ENGLISH" value="425" />
+        <entry key="CHINESE" value="422" />
+        <entry key="ENGLISH" value="426" />
       </map>
     </option>
   </component>
