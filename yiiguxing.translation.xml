@@ -61,6 +61,13 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="How to handle errors raised by the agent's output parser.&#10;    Defaults to `False`, which raises the error.&#10;    If `true`, the error will be sent back to the LLM as an observation.&#10;    If a string, the string itself will be sent to the LLM as an observation.&#10;    If a callable function, the function will be called with the exception&#10;     as an argument, and the result of that function will be passed to the agent&#10;      as an observation." />
+      <item value="`&quot;generate&quot;` calls the agent's LLM Chain one final time to generate&#10;        a final answer based on the previous steps." />
+      <item value="`&quot;force&quot;` returns a string saying that it stopped because it met a&#10;        time or iteration limit." />
+      <item value="The method to use for early stopping if the agent never&#10;    returns `AgentFinish`. Either 'force' or 'generate'." />
+      <item value="The maximum amount of wall clock time to spend in the execution&#10;    loop." />
+      <item value="The maximum number of steps to take before ending the execution&#10;    loop.&#10;    &#10;    Setting to 'None' could lead to an infinite loop." />
+      <item value="Whether to return the agent's trajectory of intermediate steps&#10;    at the end in addition to the final output." />
       <item value="Parses a message into agent actionsfinish.&#10;&#10;    Is meant to be used with OpenAI models, as it relies on the specific&#10;    tool_calls parameter from OpenAI to convey what tools to use.&#10;&#10;    If a tool_calls parameter is passed, then that is used to get&#10;    the tool names and tool inputs.&#10;&#10;    If one is not passed, then the AIMessage is assumed to be the final output." />
       <item value="EUCLIDEAN" />
       <item value="Enumerator of the Distance strategies." />
@@ -104,18 +111,11 @@
       <item value="The message output by the chat model." />
       <item value="SHOULD NOT BE SET DIRECTLY The text contents of the output message." />
       <item value="You are world class technical documentation writer." />
-      <item value="Provides an interface for calling the methods of the specified Bing Ads service." />
-      <item value="Searches for products matching the keyword, with an emphasis on products offering coupons.&#10;    Allows filtering by price range, with an option to specify exact price by setting min_price and max_price to the same value." />
-      <item value="Searches JD.com for products matching the keyword, with an emphasis on products offering coupons.&#10;    Allows filtering by price range, with an option to specify exact price by setting min_price and max_price to the same value." />
-      <item value="    These parameters should only be provided if the user has a specific price range in mind.&#10;" />
-      <item value="    Optional minimum and maximum prices can be specified to filter the products by their price.&#10;" />
-      <item value="    This function aims to provide users with the best available coupons, detailing aspects like coupon value, expiration, and applicable product categories, thus helping users save on their purchases.&#10;" />
-      <item value="    Searches for product information related to the specified keyword across various e-commerce platforms, prioritizing products with available coupons.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="422" />
-        <entry key="ENGLISH" value="426" />
+        <entry key="CHINESE" value="429" />
+        <entry key="ENGLISH" value="433" />
       </map>
     </option>
   </component>
