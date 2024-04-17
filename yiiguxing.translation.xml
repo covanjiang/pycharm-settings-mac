@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1712906713939" />
+    <option name="lastTrimTime" value="1713348054875" />
   </component>
   <component name="Translation.Settings">
     <option name="keepFormat" value="true" />
@@ -61,6 +61,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="An optional string representing the brand of the products to be filtered. If left empty, products from all brands will be considered." />
       <item value="The method to use for early stopping if the agent never&#10;    returns `AgentFinish`. Either 'force' or 'generate'." />
       <item value="The agent to run for creating a plan and determining actions&#10;    to take at each step of the execution loop." />
       <item value="How to handle errors raised by the agent's output parser.&#10;    Defaults to `False`, which raises the error.&#10;    If `true`, the error will be sent back to the LLM as an observation.&#10;    If a string, the string itself will be sent to the LLM as an observation.&#10;    If a callable function, the function will be called with the exception&#10;     as an argument, and the result of that function will be passed to the agent&#10;      as an observation." />
@@ -110,12 +111,11 @@
       <item value="  Bing Ads Campaign Management service operations require that if you specify a non-primitive,&#10;     it must be one of the values defined by the service i.e. it cannot be a nil element.&#10;     Since SUDS requires non-primitives and Bing Ads won't accept nil elements in place of an enum value,&#10;     you must either set the non-primitives or they must be set to None. Also in case new properties are added&#10;     in a future service release, it is a good practice to set each element of the SUDS object to None as a baseline." />
       <item value="This returns the value unchanged.  To the type checker this&#10;    signals that the return value has the designated type, but at&#10;    runtime we intentionally don't check anything (we want this&#10;    to be as fast as possible)." />
       <item value="The message output by the chat model." />
-      <item value="SHOULD NOT BE SET DIRECTLY The text contents of the output message." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="431" />
-        <entry key="ENGLISH" value="435" />
+        <entry key="CHINESE" value="432" />
+        <entry key="ENGLISH" value="436" />
       </map>
     </option>
   </component>
