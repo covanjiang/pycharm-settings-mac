@@ -61,6 +61,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="recommendation" />
       <item value="An optional string representing the brand of the products to be filtered. If left empty, products from all brands will be considered." />
       <item value="The method to use for early stopping if the agent never&#10;    returns `AgentFinish`. Either 'force' or 'generate'." />
       <item value="The agent to run for creating a plan and determining actions&#10;    to take at each step of the execution loop." />
@@ -110,12 +111,11 @@
       <item value="&quot;&quot;&quot; Represents an OAuth authorization object implementing the authorization code grant flow for use in a desktop&#10;    or mobile application.&#10;&#10;    You can use an instance of this class as the AuthorizationData.Authentication property&#10;    of an :class:`.AuthorizationData` object to authenticate with Bing Ads services.&#10;    In this case the AuthenticationToken request header will be set to the corresponding OAuthTokens.AccessToken value.&#10;&#10;    This class implements the authorization code grant flow for Managing User Authentication with OAuth&#10;    documented at http:go.microsoft.comfwlink?LinkID=511609. This is a standard OAuth 2.0 flow and is defined in detail in the&#10;    Authorization Code Grant section of the OAuth 2.0 spec at https:tools.ietf.orghtmlrfc6749section-4.1.&#10;    For more information about registering a Bing Ads application, see http:go.microsoft.comfwlink?LinkID=511607." />
       <item value="  Bing Ads Campaign Management service operations require that if you specify a non-primitive,&#10;     it must be one of the values defined by the service i.e. it cannot be a nil element.&#10;     Since SUDS requires non-primitives and Bing Ads won't accept nil elements in place of an enum value,&#10;     you must either set the non-primitives or they must be set to None. Also in case new properties are added&#10;     in a future service release, it is a good practice to set each element of the SUDS object to None as a baseline." />
       <item value="This returns the value unchanged.  To the type checker this&#10;    signals that the return value has the designated type, but at&#10;    runtime we intentionally don't check anything (we want this&#10;    to be as fast as possible)." />
-      <item value="The message output by the chat model." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="432" />
-        <entry key="ENGLISH" value="436" />
+        <entry key="CHINESE" value="433" />
+        <entry key="ENGLISH" value="437" />
       </map>
     </option>
   </component>
