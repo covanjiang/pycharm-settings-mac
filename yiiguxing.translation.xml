@@ -61,8 +61,11 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
-      <item value="A brief introduction about this tool." />
       <item value="A message recommending products and explaining why they might interest the user." />
+      <item value="A message that guides the user to specify their shopping needs." />
+      <item value="    It guides the user to provide more detailed shopping requirements.&#10;" />
+      <item value="This tool should be used when a user explicitly expresses the intention to purchase a specific product.&#10;    It guides the user to provide more detailed shopping requirements." />
+      <item value="A brief introduction about this tool." />
       <item value="recommendation" />
       <item value="An optional string representing the brand of the products to be filtered. If left empty, products from all brands will be considered." />
       <item value="The method to use for early stopping if the agent never&#10;    returns `AgentFinish`. Either 'force' or 'generate'." />
@@ -108,14 +111,11 @@
       <item value="Prompt template that assumes variable is already list of messages." />
       <item value="The model name to pass to tiktoken when using this class. &#10;    Tiktoken is used to count the number of tokens in documents to constrain &#10;    them to be under a certain limit. By default, when set to None, this will &#10;    be the same as the embedding model name. However, there are some cases &#10;    where you may want to use this Embedding class with a model name not &#10;    supported by tiktoken. This can include when using Azure embeddings or &#10;    when using one of the many model providers that expose an OpenAI-like &#10;    API but with different models. In those cases, in order to avoid erroring &#10;    when tiktoken is called, you can specify a model name to use here." />
       <item value="vertical" />
-      <item value="Fintech" />
-      <item value="&quot;&quot;&quot; Represents an OAuth authorization object implementing the authorization code grant flow for use in a web application.&#10;&#10;    You can use an instance of this class as the AuthorizationData.Authentication property&#10;    of an :class:`.AuthorizationData` object to authenticate with Bing Ads services.&#10;    In this case the AuthenticationToken request header will be set to the corresponding OAuthTokens.AccessToken value.&#10;&#10;    This class implements the authorization code grant flow for Managing User Authentication with OAuth&#10;    documented at http:go.microsoft.comfwlink?LinkID=511609. This is a standard OAuth 2.0 flow and is defined in detail in the&#10;    Authorization Code Grant section of the OAuth 2.0 spec at https:tools.ietf.orghtmlrfc6749section-4.1.&#10;    For more information about registering a Bing Ads application, see http:go.microsoft.comfwlink?LinkID=511607." />
-      <item value="&quot;&quot;&quot; Represents an OAuth authorization object implementing the authorization code grant flow for use in a desktop&#10;    or mobile application.&#10;&#10;    You can use an instance of this class as the AuthorizationData.Authentication property&#10;    of an :class:`.AuthorizationData` object to authenticate with Bing Ads services.&#10;    In this case the AuthenticationToken request header will be set to the corresponding OAuthTokens.AccessToken value.&#10;&#10;    This class implements the authorization code grant flow for Managing User Authentication with OAuth&#10;    documented at http:go.microsoft.comfwlink?LinkID=511609. This is a standard OAuth 2.0 flow and is defined in detail in the&#10;    Authorization Code Grant section of the OAuth 2.0 spec at https:tools.ietf.orghtmlrfc6749section-4.1.&#10;    For more information about registering a Bing Ads application, see http:go.microsoft.comfwlink?LinkID=511607." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="435" />
-        <entry key="ENGLISH" value="439" />
+        <entry key="CHINESE" value="439" />
+        <entry key="ENGLISH" value="443" />
       </map>
     </option>
   </component>
