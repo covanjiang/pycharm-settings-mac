@@ -61,6 +61,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="This tool should be used when a user explicitly expresses the intent to purchase a specific product but has not specified their detailed requirements.&#10;    It guides the user to provide more detailed shopping requirements." />
       <item value="A message recommending products and explaining why they might interest the user." />
       <item value="A message that guides the user to specify their shopping needs." />
       <item value="    It guides the user to provide more detailed shopping requirements.&#10;" />
@@ -110,12 +111,11 @@
       <item value="scratchpad" />
       <item value="Prompt template that assumes variable is already list of messages." />
       <item value="The model name to pass to tiktoken when using this class. &#10;    Tiktoken is used to count the number of tokens in documents to constrain &#10;    them to be under a certain limit. By default, when set to None, this will &#10;    be the same as the embedding model name. However, there are some cases &#10;    where you may want to use this Embedding class with a model name not &#10;    supported by tiktoken. This can include when using Azure embeddings or &#10;    when using one of the many model providers that expose an OpenAI-like &#10;    API but with different models. In those cases, in order to avoid erroring &#10;    when tiktoken is called, you can specify a model name to use here." />
-      <item value="vertical" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="439" />
-        <entry key="ENGLISH" value="443" />
+        <entry key="CHINESE" value="440" />
+        <entry key="ENGLISH" value="444" />
       </map>
     </option>
   </component>
