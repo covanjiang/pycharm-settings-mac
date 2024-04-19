@@ -61,6 +61,8 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Holds any model parameters valid for API call not explicitly specified." />
+      <item value="Whether to use search enhance, default is False." />
       <item value="query" />
       <item value="An LCEL Runnable. The runnable input must take in `input`, and if there&#10;        is chat history should take it in the form of `chat_history`.&#10;        The Runnable output is a list of Documents" />
       <item value="The prompt used to generate the search query for the retriever." />
@@ -109,13 +111,11 @@
       <item value=" Memory refers to state in Chains. Memory can be used to store information about&#10;        past executions of a Chain and inject that information into the inputs of&#10;        future executions of the Chain. For example, for conversational Chains Memory&#10;        can be used to store conversations and automatically add them to future model&#10;        prompts so that the model has the necessary context to respond coherently to&#10;        the latest input.&#10;" />
       <item value=" This means that the sub-class has implemented an efficient add_messages&#10;             method, so we should use it." />
       <item value="   add_messages contains a default implementation that calls add_message&#10;    for each message in the sequence. This is provided for backwards compatibility&#10;    with existing implementations which only had add_message.&#10;&#10;    Async variants all have default implementations that call the sync variants.&#10;    Implementers can choose to over-ride the async implementations to provide&#10;    truly async implementations.&#10;&#10;    Usage guidelines:&#10;&#10;    When used for updating history, users should favor usage of `add_messages`&#10;    over `add_message` or other variants like `add_user_message` and `add_ai_message`&#10;    to avoid unnecessary round-trips to the underlying persistence layer.&#10;" />
-      <item value=" Implementations guidelines:&#10;&#10;    Implementations are expected to over-ride all or some of the following methods:&#10;&#10;     add_messages: sync variant for bulk addition of messages&#10;     aadd_messages: async variant for bulk addition of messages&#10;     messages: sync variant for getting messages&#10;     aget_messages: async variant for getting messages&#10;     clear: sync variant for clearing messages&#10;     aclear: async variant for clearing messages" />
-      <item value="Abstract base class for storing chat message history." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="445" />
-        <entry key="ENGLISH" value="449" />
+        <entry key="CHINESE" value="447" />
+        <entry key="ENGLISH" value="451" />
       </map>
     </option>
   </component>
