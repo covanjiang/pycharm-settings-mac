@@ -61,6 +61,11 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="query" />
+      <item value="An LCEL Runnable. The runnable input must take in `input`, and if there&#10;        is chat history should take it in the form of `chat_history`.&#10;        The Runnable output is a list of Documents" />
+      <item value="The prompt used to generate the search query for the retriever." />
+      <item value="Language model to use for generating a search term given chat history&#10;        retriever: RetrieverLike object that takes a string as input and outputs&#10;            a list of Documents." />
+      <item value="Create a chain that takes conversation history and returns documents.&#10;&#10;    If there is no `chat_history`, then the `input` is just passed directly to the&#10;    retriever. If there is `chat_history`, then the prompt and LLM will be used&#10;    to generate a search query. That search query is then passed to the retriever." />
       <item value="This tool should be used when a user explicitly expresses the intent to purchase a specific product but has not specified their detailed requirements.&#10;    It guides the user to provide more detailed shopping requirements." />
       <item value="A message recommending products and explaining why they might interest the user." />
       <item value="A message that guides the user to specify their shopping needs." />
@@ -106,16 +111,11 @@
       <item value="   add_messages contains a default implementation that calls add_message&#10;    for each message in the sequence. This is provided for backwards compatibility&#10;    with existing implementations which only had add_message.&#10;&#10;    Async variants all have default implementations that call the sync variants.&#10;    Implementers can choose to over-ride the async implementations to provide&#10;    truly async implementations.&#10;&#10;    Usage guidelines:&#10;&#10;    When used for updating history, users should favor usage of `add_messages`&#10;    over `add_message` or other variants like `add_user_message` and `add_ai_message`&#10;    to avoid unnecessary round-trips to the underlying persistence layer.&#10;" />
       <item value=" Implementations guidelines:&#10;&#10;    Implementations are expected to over-ride all or some of the following methods:&#10;&#10;     add_messages: sync variant for bulk addition of messages&#10;     aadd_messages: async variant for bulk addition of messages&#10;     messages: sync variant for getting messages&#10;     aget_messages: async variant for getting messages&#10;     clear: sync variant for clearing messages&#10;     aclear: async variant for clearing messages" />
       <item value="Abstract base class for storing chat message history." />
-      <item value="The number of messages returned by Zep and when the Zep server summarizes chat&#10;    histories is configurable. See the Zep documentation for more details." />
-      <item value="Persist your chain history to the Zep MemoryStore." />
-      <item value="scratchpad" />
-      <item value="Prompt template that assumes variable is already list of messages." />
-      <item value="The model name to pass to tiktoken when using this class. &#10;    Tiktoken is used to count the number of tokens in documents to constrain &#10;    them to be under a certain limit. By default, when set to None, this will &#10;    be the same as the embedding model name. However, there are some cases &#10;    where you may want to use this Embedding class with a model name not &#10;    supported by tiktoken. This can include when using Azure embeddings or &#10;    when using one of the many model providers that expose an OpenAI-like &#10;    API but with different models. In those cases, in order to avoid erroring &#10;    when tiktoken is called, you can specify a model name to use here." />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="440" />
-        <entry key="ENGLISH" value="444" />
+        <entry key="CHINESE" value="445" />
+        <entry key="ENGLISH" value="449" />
       </map>
     </option>
   </component>
