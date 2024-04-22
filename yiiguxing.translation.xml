@@ -61,6 +61,7 @@
   <component name="Translation.States">
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="Get the OpenAI callback handler in a context manager.&#10;    which conveniently exposes token and cost information.&#10;&#10;    Returns:&#10;        OpenAICallbackHandler: The OpenAI callback handler.&#10;&#10;    Example:&#10;        &gt;&gt;&gt; with get_openai_callback() as cb:&#10;        ...      Use the OpenAI callback handler" />
       <item value="Holds any model parameters valid for API call not explicitly specified." />
       <item value="Whether to use search enhance, default is False." />
       <item value="query" />
@@ -110,12 +111,11 @@
       <item value="arbitrary" />
       <item value=" Memory refers to state in Chains. Memory can be used to store information about&#10;        past executions of a Chain and inject that information into the inputs of&#10;        future executions of the Chain. For example, for conversational Chains Memory&#10;        can be used to store conversations and automatically add them to future model&#10;        prompts so that the model has the necessary context to respond coherently to&#10;        the latest input.&#10;" />
       <item value=" This means that the sub-class has implemented an efficient add_messages&#10;             method, so we should use it." />
-      <item value="   add_messages contains a default implementation that calls add_message&#10;    for each message in the sequence. This is provided for backwards compatibility&#10;    with existing implementations which only had add_message.&#10;&#10;    Async variants all have default implementations that call the sync variants.&#10;    Implementers can choose to over-ride the async implementations to provide&#10;    truly async implementations.&#10;&#10;    Usage guidelines:&#10;&#10;    When used for updating history, users should favor usage of `add_messages`&#10;    over `add_message` or other variants like `add_user_message` and `add_ai_message`&#10;    to avoid unnecessary round-trips to the underlying persistence layer.&#10;" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="447" />
-        <entry key="ENGLISH" value="451" />
+        <entry key="CHINESE" value="448" />
+        <entry key="ENGLISH" value="452" />
       </map>
     </option>
   </component>
