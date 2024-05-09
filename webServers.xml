@@ -2,7 +2,7 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="b7bfa9ee-3bef-456b-a491-b53548efa8c7" name="zhiwei.jiang@10.0.0.211:22 agent">
-        <fileTransfer accessType="SFTP" host="10.0.0.211" port="22" sshConfigId="5a35de58-4bbf-400b-9066-59415719c4b7" sshConfig="zhiwei.jiang@10.0.0.211:22 agent" authAgent="true" />
+        <fileTransfer rootFolder="/home/zhiwei.jiang" accessType="SFTP" host="10.0.0.211" port="22" sshConfigId="5a35de58-4bbf-400b-9066-59415719c4b7" sshConfig="zhiwei.jiang@10.0.0.211:22 agent" authAgent="true" />
       </webServer>
     </option>
   </component>
