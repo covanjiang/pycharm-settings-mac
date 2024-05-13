@@ -1,5 +1,9 @@
 <application>
-  <component name="LafManager" autodetect="false">
-    <laf class-name="com.intellij.ide.ui.laf.darcula.DarculaLaf" themeId="MONOKAI" />
+  <component name="LafManager">
+    <laf themeId="MONOKAI" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="MONOKAI" scheme="Monokai Pro (Material) copy" />
+      <laf-to-scheme laf="OCEANIC" scheme="_@user_Default" />
+    </lafs-to-previous-schemes>
   </component>
 </application>
