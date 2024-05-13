@@ -4,12 +4,9 @@
     <option name="isShowWizardOnWelcome" value="false" />
     <option name="pristineConfig" value="false" />
     <option name="accentColor" value="ffd866" />
-    <option name="secondAccentColor" />
-    <option name="highlightColor" />
-    <option name="focusColor" />
     <option name="selectedTheme" value="MONOKAI" />
     <option name="userId" value="-5f78a95c:176e1307e8b:-8000" />
-    <option name="version" value="8.13.2" />
+    <option name="version" value="8.4.1" />
     <option name="showWhatsNew" value="false" />
   </component>
 </application>
