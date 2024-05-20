@@ -14,9 +14,6 @@
     <keyboard-shortcut first-keystroke="meta 3" />
   </action>
   <action id="Jdbc.OpenConsole.New" />
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl meta l" />
-  </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="alt 1" />
   </action>
