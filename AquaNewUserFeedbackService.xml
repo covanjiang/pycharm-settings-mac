@@ -1,3 +1,5 @@
 <application>
-  <component name="AquaNewUserFeedbackInfoState"><![CDATA[{}]]></component>
+  <component name="AquaNewUserFeedbackInfoState"><![CDATA[{
+  "userTypedInEditor": true
+}]]></component>
 </application>
