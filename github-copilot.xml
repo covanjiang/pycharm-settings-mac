@@ -1,5 +1,9 @@
 <application>
   <component name="github-copilot">
-    <option name="enableCompletions" value="false" />
+    <languageAllowList>
+      <map>
+        <entry key="*" value="true" />
+      </map>
+    </languageAllowList>
   </component>
 </application>
