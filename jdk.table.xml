@@ -562,7 +562,7 @@
             <root url="file:///opt/anaconda3/envs/dmopt_push_bfo_38/lib/python3.8" type="simple" />
             <root url="file:///opt/anaconda3/envs/dmopt_push_bfo_38/lib/python3.8/lib-dynload" type="simple" />
             <root url="file:///opt/anaconda3/envs/dmopt_push_bfo_38/lib/python3.8/site-packages" type="simple" />
-            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2024.1/python_stubs/737051809" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2023.3/python_stubs/737051809" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/python-skeletons" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stubs/gdb" type="simple" />

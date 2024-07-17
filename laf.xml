@@ -1,6 +1,6 @@
 <application>
   <component name="LafManager">
-    <laf themeId="OCEANIC" />
+    <laf themeId="MONOKAI" />
     <lafs-to-previous-schemes>
       <laf-to-scheme laf="MONOKAI" scheme="Monokai Pro (Material) copy" />
       <laf-to-scheme laf="OCEANIC" scheme="Monokai Pro (Material) copy" />
