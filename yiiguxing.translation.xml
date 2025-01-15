@@ -50,4 +50,20 @@
   <component name="Cache">
     <option name="lastTrimTime" value="1657510488418" />
   </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1736768694549" />
+  </component>
+  <component name="Translation.States">
+    <histories>
+      <item value="et cachingpolicy to 1 to reuse WSDL cache files, otherwise will only reuse XML files" />
+      <item value="&quot;&quot;&quot; Sets the required header elements for the corresponding Bing Ads service or bulk file upload operation. The header elements that the method sets will differ depending on the type of authentication. For example if you use one of the OAuth classes, the AuthenticationToken header will be set by this method, whereas the UserName and Password headers will remain empty. :param headers: Bing Ads service or bulk file upload operation headers. :type headers: dict :rtype: None &quot;&quot;&quot;" />
+      <item value="he Bing Ads developer access token. Used as the DeveloperToken header element in calls to the Bing Ads web services." />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="2" />
+        <entry key="ENGLISH" value="3" />
+      </map>
+    </option>
+  </component>
 </application>
