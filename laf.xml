@@ -1,9 +1,11 @@
 <application>
   <component name="LafManager">
-    <laf themeId="OCEANIC" />
+    <laf themeId="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" />
     <lafs-to-previous-schemes>
+      <laf-to-scheme laf="ExperimentalDark" scheme="Monokai Pro (Material) copy" />
       <laf-to-scheme laf="MONOKAI" scheme="Monokai Pro (Material) copy" />
       <laf-to-scheme laf="OCEANIC" scheme="Monokai Pro (Material) copy" />
+      <laf-to-scheme laf="b8abb5dc-b0c9-4d20-97f7-ec5cde31cfd7" scheme="Monokai Pro copy" />
     </lafs-to-previous-schemes>
   </component>
 </application>
