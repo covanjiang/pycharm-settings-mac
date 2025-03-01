@@ -55,6 +55,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Return the number of test inputs for which the neural network outputs the correct result. Note that the neural network's output is assumed to be the index of whichever neuron in the final layer has the highest activation." />
       <item value="Return the vector of partial derivatives \partial C_x \partial a for the output activations." />
       <item value="Note that the variable l in the loop below is used a little differently to the notation in Chapter 2 of the book. Here, l = 1 means the last layer of neurons, l = 2 is the second-last layer, and so on. It's a renumbering of the scheme in the book, used here to take advantage of the fact that Python can use negative indices in lists." />
       <item value="Train the neural network using mini-batch stochastic gradient descent." />
@@ -72,8 +73,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="CHINESE_SIMPLIFIED" value="7" />
-        <entry key="ENGLISH" value="13" />
+        <entry key="CHINESE_SIMPLIFIED" value="8" />
+        <entry key="ENGLISH" value="14" />
       </map>
     </option>
   </component>
