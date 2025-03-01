@@ -55,6 +55,8 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Train the neural network using mini-batch stochastic gradient descent." />
+      <item value="Train the neural network using mini-batch stochastic gradient descent. The ``training_data`` is a list of tuples ``(x, y)`` representing the training inputs and the desired outputs. The other non-optional parameters are self-explanatory. If ``test_data`` is provided then the network will be evaluated against the test data after each epoch, and partial progress printed out. This is useful for tracking progress, but slows things down substantially." />
       <item value="The list ``sizes`` contains the number of neurons in the respective layers of the network. For example, if the list was [2, 3, 1] then it would be a three-layer network, with the first layer containing 2 neurons, the second layer 3 neurons, and the third layer 1 neuron. The biases and weights for the network are initialized randomly, using a Gaussian distribution with mean 0, and variance 1. Note that the first layer is assumed to be an input layer, and by convention we won't set any biases for those neurons, since biases are only ever used in computing the outputs from later layers." />
       <item value="A module to implement the stochastic gradient descent learning algorithm for a feedforward neural network. Gradients are calculated using backpropagation. Note that I have focused on making the code simple, easily readable, and easily modifiable. It is not optimized, and omits many desirable features." />
       <item value="def Fire(component=None, command=None, name=None, serialize=None): &quot;&quot;&quot;This function, Fire, is the main entrypoint for Python Fire. Executes a command either from the `command` argument or from sys.argv by recursively traversing the target object `component`'s members consuming arguments, evaluating functions, and instantiating classes as it goes. When building a CLI with Fire, your main method should call this function. Args: component: The initial target component. command: Optional. If supplied, this is the command executed. If not supplied, then the command is taken from sys.argv instead. This can be a string or a list of strings; a list of strings is preferred. name: Optional. The name of the command as entered at the command line. Used in interactive mode and for generating the completion script. serialize: Optional. If supplied, all objects are serialized to text via the provided callable. Returns: The result of executing the Fire command. Execution begins with the initial target component. The component is updated by using the command arguments to either access a member of the current component, call the current component (if it's a function), or instantiate the current component (if it's a class). When all arguments are consumed and there's no function left to call or class left to instantiate, the resulting current component is the final result. Raises: ValueError: If the command argument is supplied, but not a string or a sequence of arguments. FireExit: When Fire encounters a FireError, Fire will raise a FireExit with code 2. When used with the help or trace flags, Fire will raise a FireExit with code 0 if successful. &quot;&quot;&quot;" />
@@ -68,8 +70,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="CHINESE_SIMPLIFIED" value="3" />
-        <entry key="ENGLISH" value="9" />
+        <entry key="CHINESE_SIMPLIFIED" value="5" />
+        <entry key="ENGLISH" value="11" />
       </map>
     </option>
   </component>
