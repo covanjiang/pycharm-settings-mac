@@ -215,9 +215,7 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="2d2a2e" />
-        <option name="BACKGROUND" value="ab9df2" />
-        <option name="ERROR_STRIPE_COLOR" value="ff6188" />
+        <option name="BACKGROUND" value="7d313f" />
       </value>
     </option>
     <option name="CONSOLE_BLACK_OUTPUT">
@@ -774,7 +772,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="fcfcfa" />
+        <option name="BACKGROUND" value="ab7b38" />
       </value>
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
