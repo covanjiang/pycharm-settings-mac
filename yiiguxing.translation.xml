@@ -55,6 +55,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Initializes the base sentence model. :param model_name_or_path: The name of the model to load from the huggingface models library. :param encoder_type: The type of encoder to use, See the EncoderType enum for options: FIRST_LAST_AVG, LAST_AVG, CLS, POOLER(cls + dense), MEAN(mean of last_hidden_state) :param max_seq_length: The maximum sequence length. :param device (str, optional): Device (like &quot;cuda&quot;, &quot;cpu&quot;, &quot;mps&quot;, &quot;npu&quot;) that should be used for computation. If None, checks if a GPU can be used. bert model: https:huggingface.cotransformersmodel_docbert.html?highlight=berttransformers.BertModel.forward BERT return: &lt;last_hidden_state&gt;, &lt;pooler_output&gt; [hidden_states, attentions] Note that: in doc, it says &lt;last_hidden_state&gt; is better semantic summery than &lt;pooler_output&gt;. thus, we use &lt;last_hidden_state&gt;." />
       <item value="Given a matrix whose rows are clips, creates a CompositeVideoClip where all clips are placed side by side horizontally for each clip in each row and one row on top of the other for each row. So given next matrix of clips with same size:" />
       <item value="Returns a copy of the clip, with the ``duration`` attribute set to ``t``, which can be expressed in seconds (15.35), in (min, sec), in (hour, min, sec), or as a string: '01:03:05.35'. Also sets the duration of the mask and audio, if any, of the returned clip. If ``change_end is False``, the start attribute of the clip will be modified in function of the duration and the preset end of the clip." />
       <item value="Returns a clip playing the content of the current clip between times ``start_time`` and ``end_time``, which can be expressed in seconds (15.35), in (min, sec), in (hour, min, sec), or as a string: '01:03:05.35'. The ``mask`` and ``audio`` of the resulting subclip will be subclips of ``mask`` and ``audio`` the original clip, if they exist. It's equivalent to slice the clip as a sequence, like ``clip[t_start:t_end]``." />
@@ -84,8 +85,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="CHINESE_SIMPLIFIED" value="20" />
-        <entry key="ENGLISH" value="26" />
+        <entry key="CHINESE_SIMPLIFIED" value="21" />
+        <entry key="ENGLISH" value="27" />
       </map>
     </option>
   </component>
