@@ -55,6 +55,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="Given a matrix whose rows are clips, creates a CompositeVideoClip where all clips are placed side by side horizontally for each clip in each row and one row on top of the other for each row. So given next matrix of clips with same size:" />
       <item value="Returns a copy of the clip, with the ``duration`` attribute set to ``t``, which can be expressed in seconds (15.35), in (min, sec), in (hour, min, sec), or as a string: '01:03:05.35'. Also sets the duration of the mask and audio, if any, of the returned clip. If ``change_end is False``, the start attribute of the clip will be modified in function of the duration and the preset end of the clip." />
       <item value="Returns a clip playing the content of the current clip between times ``start_time`` and ``end_time``, which can be expressed in seconds (15.35), in (min, sec), in (hour, min, sec), or as a string: '01:03:05.35'. The ``mask`` and ``audio`` of the resulting subclip will be subclips of ``mask`` and ``audio`` the original clip, if they exist. It's equivalent to slice the clip as a sequence, like ``clip[t_start:t_end]``." />
       <item value="Set this parameter to `True` (default) if you want the alpha layer of the picture (if it exists) to be used as a mask." />
@@ -83,8 +84,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="CHINESE_SIMPLIFIED" value="19" />
-        <entry key="ENGLISH" value="25" />
+        <entry key="CHINESE_SIMPLIFIED" value="20" />
+        <entry key="ENGLISH" value="26" />
       </map>
     </option>
   </component>
