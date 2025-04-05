@@ -51,10 +51,11 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1742976306684" />
+    <option name="lastTrimTime" value="1743843872568" />
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="veg-oil" />
       <item value="eturns a clip playing the content of the current clip between times ``start_time`` and ``end_time``, which can be expressed in seconds (15.35), in (min, sec), in (hour, min, sec), or as a string: '01:03:05.35'. The ``mask`` and ``audio`` of the resulting subclip will be subclips of ``mask`` and ``audio`` the original clip, if they exist. It's equivalent to slice the clip as a sequence, like ``clip[t_start:t_end]``. Parameters ---------- start_time : float or tuple or str, optional Moment that will be chosen as the beginning of the produced clip. If is negative, it is reset to ``clip.duration + start_time``. end_time : float or tuple or str, optional Moment that will be chosen as the end of the produced clip. If not provided, it is assumed to be the duration of the clip (potentially infinite). If is negative, it is reset to ``clip.duration + end_time``. For instance: &gt;&gt;&gt; cut the last two seconds of the clip: &gt;&gt;&gt; new_clip = clip.subclipped(0, -2) If ``end_time`` is provided or if the clip has a duration attribute, the duration of the returned clip is set automatically." />
       <item value="Initializes the base sentence model. :param model_name_or_path: The name of the model to load from the huggingface models library. :param encoder_type: The type of encoder to use, See the EncoderType enum for options: FIRST_LAST_AVG, LAST_AVG, CLS, POOLER(cls + dense), MEAN(mean of last_hidden_state) :param max_seq_length: The maximum sequence length. :param device (str, optional): Device (like &quot;cuda&quot;, &quot;cpu&quot;, &quot;mps&quot;, &quot;npu&quot;) that should be used for computation. If None, checks if a GPU can be used. bert model: https:huggingface.cotransformersmodel_docbert.html?highlight=berttransformers.BertModel.forward BERT return: &lt;last_hidden_state&gt;, &lt;pooler_output&gt; [hidden_states, attentions] Note that: in doc, it says &lt;last_hidden_state&gt; is better semantic summery than &lt;pooler_output&gt;. thus, we use &lt;last_hidden_state&gt;." />
       <item value="Given a matrix whose rows are clips, creates a CompositeVideoClip where all clips are placed side by side horizontally for each clip in each row and one row on top of the other for each row. So given next matrix of clips with same size:" />
@@ -86,8 +87,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="CHINESE_SIMPLIFIED" value="22" />
-        <entry key="ENGLISH" value="28" />
+        <entry key="CHINESE_SIMPLIFIED" value="23" />
+        <entry key="ENGLISH" value="29" />
       </map>
     </option>
   </component>
