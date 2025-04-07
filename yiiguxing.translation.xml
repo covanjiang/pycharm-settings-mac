@@ -55,6 +55,7 @@
   </component>
   <component name="Translation.States">
     <histories>
+      <item value="If `True`, resize the images without aspect ratio distortion. When the original aspect ratio differs from the target aspect ratio, the output image will be cropped so as to return the largest possible window in the image (of size `image_size`) that matches the target aspect ratio. By default (`crop_to_aspect_ratio=False`), aspect ratio may not be preserved." />
       <item value="or a listtuple of integer labels of the same size as the number of image files found in the directory. Labels should be sorted according to the alphanumeric order of the image file paths (obtained via `os.walk(directory)` in Python)." />
       <item value="If `labels` is `&quot;inferred&quot;`, it should contain subdirectories, each containing images for a class. Otherwise, the directory structure is ignored." />
       <item value="Animated gifs are truncated to the first frame." />
@@ -91,8 +92,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="CHINESE_SIMPLIFIED" value="27" />
-        <entry key="ENGLISH" value="33" />
+        <entry key="CHINESE_SIMPLIFIED" value="28" />
+        <entry key="ENGLISH" value="34" />
       </map>
     </option>
   </component>
