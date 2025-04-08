@@ -3,6 +3,7 @@
     <option name="indentGuidesOptions" value="Only selected indent guide" />
     <option name="rainbowVariablesOptionShowed" value="true" />
     <option name="rainbowifyPythonKeywords" value="true" />
+    <option name="suppressAdvancedIndentGuidesBanner" value="true" />
     <option name="suppressBigFileCheck" value="true" />
     <option name="version" value="2024.2.9-241" />
   </component>
