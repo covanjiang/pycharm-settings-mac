@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1743843872568" />
+    <option name="lastTrimTime" value="1744358393811" />
   </component>
   <component name="Translation.States">
     <option name="translationDialogHeight" value="325" />
@@ -59,6 +59,7 @@
     <option name="translationDialogLocationY" value="503" />
     <option name="translationDialogWidth" value="650" />
     <histories>
+      <item value="It allows for a customized multiplier and an ability to restrict the upper and lower limits to some maximum and minimum value." />
       <item value="训练与验证损失" />
       <item value="验证损失" />
       <item value="训练损失" />
@@ -104,7 +105,7 @@
       <map>
         <entry key="CHINESE" value="5" />
         <entry key="CHINESE_SIMPLIFIED" value="35" />
-        <entry key="ENGLISH" value="35" />
+        <entry key="ENGLISH" value="36" />
       </map>
     </option>
   </component>
