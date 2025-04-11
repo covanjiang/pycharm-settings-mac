@@ -54,6 +54,10 @@
     <option name="lastTrimTime" value="1743843872568" />
   </component>
   <component name="Translation.States">
+    <option name="translationDialogHeight" value="325" />
+    <option name="translationDialogLocationX" value="972" />
+    <option name="translationDialogLocationY" value="503" />
+    <option name="translationDialogWidth" value="650" />
     <histories>
       <item value="训练与验证损失" />
       <item value="验证损失" />
