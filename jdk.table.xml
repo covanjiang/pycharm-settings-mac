@@ -2214,5 +2214,30 @@
         <setting name="FLAVOR_DATA" value="{}" />
       </additional>
     </jdk>
+    <jdk version="2">
+      <name value="uv (PythonProject)" />
+      <type value="Python SDK" />
+      <version value="Python 3.10.16" />
+      <homePath value="$USER_HOME$/PycharmProjects/BlueFocus/PythonProject/.venv/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file://$USER_HOME$/.local/share/uv/python/cpython-3.10.16-macos-aarch64-none/lib/python3.10" type="simple" />
+            <root url="file://$USER_HOME$/.local/share/uv/python/cpython-3.10.16-macos-aarch64-none/lib/python3.10/lib-dynload" type="simple" />
+            <root url="file://$USER_HOME$/PycharmProjects/BlueFocus/PythonProject/.venv/lib/python3.10/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2025.1/python_stubs/576715501" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/BlueFocus/mcp" SDK_UUID="5624ccf2-4ca6-4f44-9223-81076338a80a" IS_UV="true">
+        <setting name="FLAVOR_ID" value="UvSdkFlavor" />
+        <setting name="FLAVOR_DATA" value="{}" />
+      </additional>
+    </jdk>
   </component>
 </application>
