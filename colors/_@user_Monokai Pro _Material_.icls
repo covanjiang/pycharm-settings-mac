@@ -16,11 +16,25 @@
   <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
-    <option name="DIAGRAM_NODE_HEADER" value="5b595c" />
-    <option name="DIFF_SEPARATORS_BACKGROUND" value="3d5662" />
-    <option name="DOCUMENTATION_COLOR" value="3c3f41" />
-    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="49d0c5" />
-    <option name="FILESTATUS_RENAMED" value="2aa298" />
+    <option name="DIAGRAM_NODE_HEADER" value="5B595C" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="3D5662" />
+    <option name="DOCUMENTATION_COLOR" value="3C3F41" />
+    <option name="FILESTATUS_ADDED" value="C3E887" />
+    <option name="FILESTATUS_DELETED" value="F77669" />
+    <option name="FILESTATUS_HIJACKED" value="FFCB6B" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="D69A6B" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="DE6A66" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="DE6A66" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="DE6A66" />
+    <option name="FILESTATUS_IDEA_SVN_REPLACED" value="49D0C5" />
+    <option name="FILESTATUS_MERGED" value="CF84CF" />
+    <option name="FILESTATUS_MODIFIED" value="80CBC4" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="80CBC4" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="80CBC4" />
+    <option name="FILESTATUS_RENAMED" value="2AA298" />
+    <option name="FILESTATUS_SUPPRESSED" value="546E7A" />
+    <option name="FILESTATUS_SWITCHED" value="F77669" />
+    <option name="FILESTATUS_UNKNOWN" value="F77669" />
   </colors>
   <attributes>
     <option name="ANGLE_BRACKETS_RAINBOW_COLOR0">
