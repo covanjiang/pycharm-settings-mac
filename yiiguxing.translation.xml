@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1744358393811" />
+    <option name="lastTrimTime" value="1745134186191" />
   </component>
   <component name="Translation.States">
     <option name="translationDialogHeight" value="325" />
@@ -59,6 +59,7 @@
     <option name="translationDialogLocationY" value="503" />
     <option name="translationDialogWidth" value="650" />
     <histories>
+      <item value="Model Context Protocol bindings for Python These bindings were generated from https:github.commodelcontextprotocolspecification, using Claude, with a prompt something like the following: Generate idiomatic Python bindings for this schema for MCP, or the &quot;Model Context Protocol.&quot; The schema is defined in TypeScript, but there's also a JSON Schema version for reference. For the bindings, let's use Pydantic V2 models. Each model should allow extra fields everywhere, by specifying `model_config = ConfigDict(extra='allow')`. Do this in every case, instead of a custom base class. Union types should be represented with a Pydantic `RootModel`. Define additional model classes instead of using dictionaries. Do this even if they're not separate types in the schema." />
       <item value="It allows for a customized multiplier and an ability to restrict the upper and lower limits to some maximum and minimum value." />
       <item value="训练与验证损失" />
       <item value="验证损失" />
@@ -104,8 +105,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="CHINESE_SIMPLIFIED" value="35" />
-        <entry key="ENGLISH" value="36" />
+        <entry key="CHINESE_SIMPLIFIED" value="36" />
+        <entry key="ENGLISH" value="37" />
       </map>
     </option>
   </component>
