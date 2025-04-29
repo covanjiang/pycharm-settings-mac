@@ -1763,7 +1763,7 @@
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/mcp-example" SDK_UUID="52765bc6-ffaf-48cc-83c7-8d909b6fe069" IS_UV="true">
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/mcp-example" SDK_UUID="ef0c00b7-4c2d-47b9-9737-3baddac229b1" IS_UV="true">
         <setting name="FLAVOR_ID" value="UvSdkFlavor" />
         <setting name="FLAVOR_DATA" value="{}" />
       </additional>
