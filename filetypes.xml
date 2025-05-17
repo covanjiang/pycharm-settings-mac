@@ -4,6 +4,7 @@
     <extensionMap>
       <mapping pattern="proportionOfPartition" type="AUTO_DETECTED" />
       <mapping pattern="filter_cdn_list" type="AUTO_DETECTED" />
+      <mapping ext="bak" type="PLAIN_TEXT" />
       <mapping ext="bam" type="PLAIN_TEXT" />
       <mapping ext="bed" type="PLAIN_TEXT" />
       <mapping ext="h5" type="PLAIN_TEXT" />
