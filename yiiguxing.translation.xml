@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1745569070452" />
+    <option name="lastTrimTime" value="1747560214683" />
   </component>
   <component name="Translation.States">
     <option name="translationDialogHeight" value="325" />
@@ -59,6 +59,7 @@
     <option name="translationDialogLocationY" value="503" />
     <option name="translationDialogWidth" value="650" />
     <histories>
+      <item value="Get the ffmpeg executable file. This can be the binary defined by the IMAGEIO_FFMPEG_EXE environment variable, the binary distributed with imageio-ffmpeg, an ffmpeg binary installed with conda, or the system ffmpeg (in that order). A RuntimeError is raised if no valid ffmpeg could be found." />
       <item value="If ``True``, the ``end`` attribute value of the clip will be adjusted accordingly to the new duration using ``clip.start + duration``." />
       <item value="set_start() Sets the starting symbol and creates the augmented grammar. Production rule 0 is S' -&gt; start where start is the start symbol." />
       <item value="Write data to Excel worksheet. The function automatically detects the context and handles headers intelligently: - Headers are added when writing to a new area - Headers are not duplicated when writing below existing headers - Title areas (rows 1-4) are treated specially - If the first row of data appears to be headers, it will be used accordingly" />
@@ -108,8 +109,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="CHINESE_SIMPLIFIED" value="39" />
-        <entry key="ENGLISH" value="40" />
+        <entry key="CHINESE_SIMPLIFIED" value="40" />
+        <entry key="ENGLISH" value="41" />
       </map>
     </option>
   </component>
