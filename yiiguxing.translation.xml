@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1748417102423" />
+    <option name="lastTrimTime" value="1749022537141" />
   </component>
   <component name="Translation.States">
     <option name="translationDialogHeight" value="325" />
@@ -59,6 +59,9 @@
     <option name="translationDialogLocationY" value="503" />
     <option name="translationDialogWidth" value="650" />
     <histories>
+      <item value="The position of the blur at time t is defined by (fx(t), fy(t)), the radius of the blurring by ``radius`` and the intensity of the blurring by ``intensity``." />
+      <item value="Returns a filter that will blur a moving part (a head ?) of the frames." />
+      <item value="Returns a new clip with a mask for transparency where the original clip is of the given color. You can also have a &quot;progressive&quot; mask by specifying a non-null distance threshold ``threshold``. In this case, if the distance between a pixel and the given color is d, the transparency will be dstiffness (thresholdstiffness + dstiffness) which is 1 when d&gt;&gt;threshold and 0 for d&lt;&lt;threshold, the stiffness of the effect being parametrized by ``stiffness``" />
       <item value="These changes are also applied to the ``audio`` and ``mask`` clips of the current clip, if they exist." />
       <item value="Get the ffmpeg executable file. This can be the binary defined by the IMAGEIO_FFMPEG_EXE environment variable, the binary distributed with imageio-ffmpeg, an ffmpeg binary installed with conda, or the system ffmpeg (in that order). A RuntimeError is raised if no valid ffmpeg could be found." />
       <item value="If ``True``, the ``end`` attribute value of the clip will be adjusted accordingly to the new duration using ``clip.start + duration``." />
@@ -110,8 +113,8 @@
     <option name="languageScores">
       <map>
         <entry key="CHINESE" value="5" />
-        <entry key="CHINESE_SIMPLIFIED" value="41" />
-        <entry key="ENGLISH" value="42" />
+        <entry key="CHINESE_SIMPLIFIED" value="44" />
+        <entry key="ENGLISH" value="45" />
       </map>
     </option>
   </component>
