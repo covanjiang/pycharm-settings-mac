@@ -51,7 +51,7 @@
     <option name="lastTrimTime" value="1657510488418" />
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1749022537141" />
+    <option name="lastTrimTime" value="1749555853639" />
   </component>
   <component name="Translation.States">
     <option name="translationDialogHeight" value="325" />
@@ -59,6 +59,7 @@
     <option name="translationDialogLocationY" value="503" />
     <option name="translationDialogWidth" value="650" />
     <histories>
+      <item value="lzh" />
       <item value="FADE SEC" />
       <item value="The position of the blur at time t is defined by (fx(t), fy(t)), the radius of the blurring by ``radius`` and the intensity of the blurring by ``intensity``." />
       <item value="Returns a filter that will blur a moving part (a head ?) of the frames." />
@@ -108,7 +109,6 @@
       <item value="Detected shot transitions at frames" />
       <item value="detect shot transitions" />
       <item value="et cachingpolicy to 1 to reuse WSDL cache files, otherwise will only reuse XML files" />
-      <item value="&quot;&quot;&quot; Sets the required header elements for the corresponding Bing Ads service or bulk file upload operation. The header elements that the method sets will differ depending on the type of authentication. For example if you use one of the OAuth classes, the AuthenticationToken header will be set by this method, whereas the UserName and Password headers will remain empty. :param headers: Bing Ads service or bulk file upload operation headers. :type headers: dict :rtype: None &quot;&quot;&quot;" />
     </histories>
     <option name="languageScores">
       <map>
