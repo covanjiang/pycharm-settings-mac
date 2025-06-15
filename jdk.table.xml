@@ -1106,6 +1106,32 @@
       </additional>
     </jdk>
     <jdk version="2">
+      <name value="video_processing" />
+      <type value="Python SDK" />
+      <version value="Python 3.12.11" />
+      <homePath value="/opt/anaconda3/envs/video_processing/bin/python" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///opt/anaconda3/envs/video_processing/lib/python3.12" type="simple" />
+            <root url="file:///opt/anaconda3/envs/video_processing/lib/python3.12/lib-dynload" type="simple" />
+            <root url="file:///opt/anaconda3/envs/video_processing/lib/python3.12/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2025.1/python_stubs/-743821371" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/python-skeletons" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/setuptools" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite" />
+        </sourcePath>
+      </roots>
+      <additional ASSOCIATED_PROJECT_PATH="$USER_HOME$/PycharmProjects/BlueFocus/video_processing" SDK_UUID="b96b7721-5f9e-45ec-a86a-bb202bc79bec">
+        <setting name="FLAVOR_ID" value="Conda" />
+        <setting name="FLAVOR_DATA" value="{&quot;env&quot;:{&quot;envIdentity&quot;:{&quot;sealedClassChildId&quot;:&quot;NamedEnv&quot;,&quot;data&quot;:{&quot;envName&quot;:&quot;video_processing&quot;,&quot;userReadableName&quot;:&quot;video_processing&quot;}},&quot;fullCondaPathOnTarget&quot;:&quot;/opt/anaconda3/condabin/conda&quot;}}" />
+      </additional>
+    </jdk>
+    <jdk version="2">
       <name value="Qwen2" />
       <type value="Python SDK" />
       <version value="Python 3.10.16" />
