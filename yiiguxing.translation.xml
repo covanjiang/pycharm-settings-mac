@@ -53,6 +53,10 @@
   <component name="Translation.Cache">
     <option name="lastTrimTime" value="1749555853639" />
   </component>
+  <component name="Translation.Settings">
+    <option name="primaryLanguage" value="CHINESE_SIMPLIFIED" />
+    <option name="ttsEngine" value="GOOGLE" />
+  </component>
   <component name="Translation.States">
     <option name="translationDialogHeight" value="325" />
     <option name="translationDialogLocationX" value="972" />
