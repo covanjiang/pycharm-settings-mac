@@ -1,0 +1,9 @@
+<application>
+  <component name="iScratchSettings">
+    <option name="notesDbPath" value="$USER_HOME$/notes.db" />
+    <option name="editorFontPreferences">
+      <f />
+    </option>
+    <option name="welcomePageDisplayed" value="true" />
+  </component>
+</application>
