@@ -1195,14 +1195,18 @@
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/six" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/cffi" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/pytz" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/tqdm" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/zstd" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/regex" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/bleach" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/Pillow" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/psutil" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/PyYAML" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/pexpect" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/aiofiles" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/html5lib" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/jmespath" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/Markdown" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/networkx" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/Pygments" type="simple" />
@@ -1212,9 +1216,13 @@
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/jsonschema" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/Send2Trash" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/setuptools" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/simplejson" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/tensorflow" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/editdistance" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/humanfriendly" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/beautifulsoup4" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/python-slugify" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stubs/antlr4-python3-runtime" type="simple" />
           </root>
         </classPath>
         <sourcePath>
@@ -1222,6 +1230,11 @@
         </sourcePath>
       </roots>
       <additional SDK_UUID="1e653b56-4e6e-4627-93f8-386982c32cfc">
+        <PATHS_TO_TRANSFER_ROOT PATH_TO_TRANSFER="file://$USER_HOME$/PycharmProjects/GPT-SoVITS/tools" />
+        <PATHS_TO_TRANSFER_ROOT PATH_TO_TRANSFER="file://$USER_HOME$/PycharmProjects/GPT-SoVITS/GPT_SoVITS" />
+        <PATHS_TO_TRANSFER_ROOT PATH_TO_TRANSFER="file://$USER_HOME$/PycharmProjects/GPT-SoVITS/tools/uvr5" />
+        <PATHS_TO_TRANSFER_ROOT PATH_TO_TRANSFER="file://$USER_HOME$/PycharmProjects/GPT-SoVITS/tools/asr" />
+        <PATHS_TO_TRANSFER_ROOT PATH_TO_TRANSFER="file://$USER_HOME$/PycharmProjects/GPT-SoVITS/GPT_SoVITS/BigVGAN" />
         <setting name="FLAVOR_ID" value="Conda" />
         <setting name="FLAVOR_DATA" value="{&quot;env&quot;:{&quot;envIdentity&quot;:{&quot;sealedClassChildId&quot;:&quot;NamedEnv&quot;,&quot;data&quot;:{&quot;envName&quot;:&quot;nndl&quot;,&quot;userReadableName&quot;:&quot;nndl&quot;}},&quot;fullCondaPathOnTarget&quot;:&quot;/opt/anaconda3/condabin/conda&quot;}}" />
       </additional>
