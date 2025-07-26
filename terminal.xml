@@ -2,5 +2,6 @@
   <component name="TerminalOptionsProvider">
     <option name="myCopyOnSelection" value="true" />
     <option name="terminalEngineInRemDev" value="CLASSIC" />
+    <option name="useOptionAsMetaKey" value="true" />
   </component>
 </application>
