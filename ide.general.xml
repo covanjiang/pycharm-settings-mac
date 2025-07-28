@@ -18,7 +18,6 @@
     <entry key="ide.editor.tab.selection.animation" value="true" source="SYSTEM" />
     <entry key="ide.new.editor.tabs.vertical.borders" value="true" source="SYSTEM" />
     <entry key="ide.animate.toolwindows" value="true" source="SYSTEM" />
-    <entry key="editor.distraction.free.mode" value="true" source="SYSTEM" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
